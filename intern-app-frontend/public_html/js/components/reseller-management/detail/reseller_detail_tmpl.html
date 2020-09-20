@@ -1,0 +1,174 @@
+<div class="page-title">
+    <div class="title">
+        <h3 ng-i18next="page_title.reseller.detail"></h3>
+    </div>
+</div>
+
+
+<!--<div class="row form-group">-->
+    <!--<div class="col-xs-12 col-sm-12 col-md-12">-->
+        <!--<a ng-click="confirmDeleteReseller()" class="btn btn-danger" ng-i18next="button.delete"></a>-->
+    <!--</div>-->
+<!--</div>-->
+
+<div class="clearfix"></div>
+
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel">
+            <div class="x_content">
+                <form name="createResellerForm">
+
+                    <div class="row">
+                        <fieldset id="resellerFieldset">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+
+                            <div class="row">
+
+                                <!--Company Name-->
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                    <div class="form-group"
+                                         ng-class="{'has-error' :createResellerForm.name.$touched && createResellerForm.name.$invalid}">
+                                        <label for="name" ng-i18next="label.company_name"></label>
+                                        <span class="required-field">*</span>
+                                        <div>
+                                            <input ng-model="reseller.name" name="name" id="name"
+                                                   type="text" class="form-control" maxlength="64" ng-required="true"/>
+
+                                            <div ng-show="createResellerForm.name.$touched">
+                                                <span class="help-block"
+                                                      ng-show="createResellerForm.name.$error.required"
+                                                      ng-i18next="validation.required"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Email Address-->
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                    <div class="form-group" ng-class="{
+                                            'has-error' : createResellerForm.email.$touched && createResellerForm.email.$invalid}">
+                                        <label for="email" ng-i18next="label.email"></label>
+                                        <span class="required-field">*</span>
+                                        <div>
+                                            <input type="text" name="email" id="email" class="signup form-control"
+                                                   ng-model="reseller.email" ng-required="true"
+                                                   ng-pattern='emailPattern' maxlength="64"/>
+
+                                            <div class="errors" ng-show="createResellerForm.email.$touched">
+                                                <span class="help-block"
+                                                      ng-show="createResellerForm.email.$error.required"
+                                                      ng-i18next="validation.required"></span>
+                                                <span class="help-block"
+                                                      ng-show="createResellerForm.email.$error.pattern"
+                                                      ng-i18next="validation.email.invalid_pattern"></span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <!--Phone Number-->
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                    <div class="form-group" ng-class="{
+                                            'has-error' : createResellerForm.phone.$touched && createResellerForm.phone.$invalid}">
+                                        <label for="phone" ng-i18next="label.phone"></label>
+                                        <span class="required-field">*</span>
+                                        <div>
+                                            <input type="text" name="phone" id="phone" class="signup form-control"
+                                                   ng-model="reseller.phone" maxlength="23" required="required"
+                                                   ng-pattern="phoneNumber"/>
+
+                                            <div class="errors" ng-show="createResellerForm.phone.$touched">
+                                                <span class="help-block"
+                                                      ng-show="createResellerForm.phone.$error.required"
+                                                      ng-i18next="validation.required"></span>
+                                                <span class="help-block"
+                                                      ng-show="createResellerForm.phone.$error.pattern"
+                                                      ng-i18next="validation.phone.invalid_pattern"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Fax Number-->
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                    <div class="form-group" ng-class="{
+                                            'has-error' : createResellerForm.fax.$touched && createResellerForm.fax.$invalid}">
+                                        <label for="fax" ng-i18next="label.fax"></label>
+                                        <div>
+                                            <input type="text" name="fax" id="fax" class="signup form-control"
+                                                   ng-model="reseller.fax" maxlength="23"
+                                                   ng-pattern="phoneNumber"/>
+
+                                            <div class="errors" ng-show="createResellerForm.fax.$touched">
+                                                <span class="help-block"
+                                                      ng-show="createResellerForm.fax.$error.pattern"
+                                                      ng-i18next="validation.fax.invalid_pattern"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <!--Contact Name-->
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                    <div class="form-group"
+                                         ng-class="{'has-error' :createResellerForm.contactName.$touched && createResellerForm.contactName.$invalid}">
+                                        <label for="contactName" ng-i18next="label.contact_name"></label>
+                                        <span class="required-field">*</span>
+                                        <div>
+                                            <input ng-model="reseller.contactName" name="contactName" id="contactName"
+                                                   type="text" class="form-control" maxlength="64" ng-required="true"/>
+
+                                            <div ng-show="createResellerForm.contactName.$touched">
+                                                <span class="help-block"
+                                                      ng-show="createResellerForm.contactName.$error.required"
+                                                      ng-i18next="validation.required"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Website-->
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                    <div class="form-group"
+                                         ng-class="{'has-error' : createResellerForm.website.$touched && createResellerForm.website.$invalid}">
+                                        <label for="website" ng-i18next="label.website"></label>
+                                        <div>
+                                            <input ng-model="reseller.website" name="website" id="website"
+                                                   ng-pattern="websitePattern" type="text" class="form-control" maxlength="64"/>
+                                        </div>
+                                        <div class="errors" ng-show="createResellerForm.website.$touched">
+                                                <span class="help-block"
+                                                      ng-show="createResellerForm.website.$error.pattern"
+                                                      ng-i18next="validation.website.invalid_pattern"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </fieldset>
+
+                        <div class="action-bar text-right">
+                            <a ui-sref="reseller.list" class="btn btn-warning" ng-i18next="button.back">Back</a>
+                            <button ng-disabled="!createResellerForm.$valid || submitting || origin" ng-hide="submitting"
+                                    ng-click="updateReseller()" class="btn btn-primary" ng-i18next="button.save" type="submit"></button>
+                            <button ng-show="submitting" disabled class="btn btn-primary"
+                                    ng-i18next="button.saving"></button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

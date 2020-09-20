@@ -1,0 +1,105 @@
+<div class="page-title">
+    <div class="title">
+        <h3 ng-i18next="page_title.reseller.list"></h3>
+        <div class="row form-group">
+            <!--<div class="col-sm-6 col-md-8 hidden-xs">-->
+                <!--<button ui-sref="reseller.create" class="btn btn-primary" ng-i18next="button.add"></button>-->
+                <!--<button ng-click="confirmDeleteReseller()" class="btn btn-danger" ng-i18next="button.delete"-->
+                        <!--ng-disabled="selected.length === 0"></button>-->
+            <!--</div>-->
+            <div class="col-sm-6 col-md-4 hidden-xs">
+                <input ng-model="searchString" ng-keyup="loadListReseller()" type="text" class="form-control"
+                       ng-i18next="[placeholder]table.search"/>
+            </div>
+            <!--<div class="btn-group-vertical hidden-md hidden-sm hidden-lg col-xs-12">-->
+                <!--<button ui-sref="reseller.create" class="btn btn-primary  no-boder-radius" ng-i18next="button.add"-->
+                        <!--style="margin-bottom: 10px"></button>-->
+                <!--<button ng-click="confirmDeleteReseller()" class="btn btn-danger" ng-i18next="button.delete"-->
+                        <!--ng-disabled="selected.length === 0" style="margin-bottom: 10px">Delete-->
+                <!--</button>-->
+                <!--<input ng-model="searchString" ng-keyup="loadListReseller()" type="text" class="form-control"-->
+                       <!--ng-i18next="[placeholder]table.search" style="margin-bottom: 10px"/>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel">
+            <div class="x_content">
+                <div class="x-table">
+                    <!--table header-->
+                    <div class="row x-table-header">
+                        <!--<div class="col-xs-1 col-sm-1 col-md-1 text-left"><input icheck-->
+                                                                                 <!--ng-change="toggleSelectAll(selectedAll)"-->
+                                                                                 <!--ng-model="selectedAll"-->
+                                                                                 <!--type="checkbox"/></div>-->
+                        <div class="col-xs-5 col-sm-4 col-md-3 text-left">
+                            <span ng-i18next="table.header.name" ng-click="doSort(1)" style="cursor: pointer"></span>
+                            <i class="fa fa-sort" aria-hidden="true" ng-click="doSort(1)" style="cursor: pointer"></i>
+                        </div>
+                        <div class="col-xs-5 col-sm-3 col-md-3 text-left">
+                            <span ng-i18next="table.header.email" ng-click="doSort(3)" style="cursor: pointer"></span>
+                            <i class="fa fa-sort" aria-hidden="true" ng-click="doSort(3)" style="cursor: pointer"></i>
+                        </div>
+                        <div class="hidden-xs hidden-sm col-md-3 text-left">
+                            <span ng-i18next="table.header.website"
+                                  style="cursor: pointer"></span>
+                        </div>
+                        <div class="hidden-xs col-sm-3 col-md-2 text-left">
+                            <span ng-i18next="table.header.phone" ng-click="doSort(5)" style="cursor: pointer"></span>
+                            <i class="fa fa-sort" aria-hidden="true" ng-click="doSort(5)" style="cursor: pointer"></i>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-1"><span ng-i18next="table.header.detail"></span></div>
+                    </div>
+
+                    <!--table content-->
+                    <div class="col-xs-12 text-center" ng-show="listReseller.length === 0" style="top: 5px">
+                        <span ng-i18next="label.no_data">No Data</span>
+                    </div>
+                    <div class="row x-table-row" ng-repeat="reseller in listReseller" ng-click="toggleSelected(reseller)"
+                         ng-dblclick="loadResellerDetail(reseller.resellerId)">
+                        <!--<div class="col-xs-1 col-sm-1 col-md-1 text-left"><input icheck-->
+                                                                                 <!--ng-click="$event.stopPropagation()"-->
+                                                                                 <!--ng-change="toggleSelected(reseller)"-->
+                                                                                 <!--ng-model="reseller._selected"-->
+                                                                                 <!--type="checkbox"/></div>-->
+
+                        <div class="col-xs-5 col-sm-4 col-md-3 text-left">
+                            <span class="wrap" ng-bind="reseller.name"></span>
+                        </div>
+
+                        <div class="col-xs-5 col-sm-3 col-md-3 text-left">
+                            <span class="wrap" ng-bind="reseller.email"></span>
+                        </div>
+                        <div class="hidden-xs hidden-sm col-md-3 text-left">
+                            <span ng-bind="reseller.website"></span>
+                        </div>
+
+                        <div class="hidden-xs col-sm-3 col-md-2 text-left">
+                            <span ng-bind="reseller.phone"></span>
+                        </div>
+
+                        <div class="col-xs-2 col-sm-2 col-md-1">
+                            <span ng-click="loadResellerDetail(reseller.resellerId)"
+                                  class="glyphicon glyphicon-info-sign zoom-btn text-center"></span>
+                            <!--<span ng-click="confirmDeleteReseller(reseller.resellerId)" class="glyphicon glyphicon-trash"-->
+                                  <!--style="color: red"></span>-->
+                        </div>
+                    </div>
+
+                    <!--table footer-->
+                    <div class="row x-table-footer text-right">
+                        <ul ng-show="listReseller.length > 0" uib-pagination total-items="totalItems" ng-model="currentPage"
+                            max-size="maxSize" num-pages="totalPages" class="pagination-sm" boundary-link-numbers="true"
+                            rotate="false" ng-change="pageChanged()" previous-text="&lsaquo;" next-text="&rsaquo;"
+                            first-text="&laquo;" last-text="&raquo;" boundary-links="true"
+                            items-per-page="pageSize"></ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

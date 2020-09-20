@@ -1,0 +1,9 @@
+/spring-boot/target/
+/spring-boot/.idea/
+/intern-app-frontend/target/
+/spring-boot/spring-boot.iml
+/intern-app-frontend/.idea/
+/intern-app-frontend/publisher-box-app.iml
+/intern-app-frontend/nbproject/
+/intern-app-frontend/public_html/vendors/
+/intern-app-frontend/node_modules/

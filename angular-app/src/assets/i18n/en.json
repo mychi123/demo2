@@ -1,0 +1,13 @@
+{
+    "APP_TITLE": "Angular App",
+    "LOGIN_COMPONENT": {
+        "TITLE": "SIGN IN",
+        "USERNAME_LABEL": "Uername or Email address",
+        "PASSWORD_LABEL": "Password",
+        "REMEMBER_LABEL": "Remember me",
+        "LOGIN_BUTTON_LABEL": "SIGN IN",
+        "LOGINING_BUTTON_LABEL": "SIGNING IN",
+        "VALIDATE_USERNAME": "Username or Email address is required",
+        "VALIDATE_PASSWORD": "Password is required"
+    }
+}

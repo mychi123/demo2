@@ -1,0 +1,63 @@
+<div class="visible-xs visible-sm text-center" style="padding-top: 8px">
+    <img alt="Publisher BOX App" ng-src="img/logo.png" src="img/logo.png">
+</div>
+<div class="container body">
+    <div class="main_container">
+        <div class="col-md-3 left_col menu_fixed">
+            <div class="left_col scroll-view">
+                <div id="bgTitle" class="navbar nav_title" style="border: 0;">
+                    <span class="site_title" style="padding-left: 0px; margin-top: 0px">
+                        <!--<a href="index.html" class="site_title" ng-i18next="app.name"></a>-->
+                        <img id="logoShow" alt="Publisher BOX App" style="width: 95%; margin-left: 5px;" ng-src="img/logo-box.png" src="img/logo.png">
+                        <img id="textShow" alt="Publisher BOX App" ng-src="img/bp-logo.png" src="img/bp-logo.png" class="custom_logo_small">
+                    </span>
+
+                </div>
+
+                <div class="clearfix"></div>
+
+                <!--sidebar menu-->
+                <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                    <div class="menu_section">
+                        <ul class="nav side-menu">
+                            <li ui-sref="reseller.list">
+                                <a><i class="fa fa-handshake-o"></i> <span ng-i18next="navi.reseller"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--top navigation-->
+        <div class="top_nav">
+            <div class="nav_menu">
+                <nav>
+                    <div class="nav toggle">
+                        <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="">
+                            <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                <img src="img/profile.jpg" alt="">
+                                <span ng-bind="username"></span>
+                                <span class=" fa fa-angle-down"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                <li><a><span ng-i18next="navi.account"></span></a></li>
+                                <li><a><i class="fa fa-sign-out pull-right"></i><span ng-i18next="button.logout"></span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!--/top navigation-->
+
+        <!--page content-->
+        <div class="right_col" role="main">
+            <div class="clearfix"></div>
+            <div ui-view></div>
+        </div>
+    </div>
+</div>

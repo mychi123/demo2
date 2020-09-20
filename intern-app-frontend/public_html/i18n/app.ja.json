@@ -1,0 +1,1603 @@
+{
+  "app": {
+    "name": "Publisher Box App"
+  },
+  "navi": {
+    "content_folder": "コンテンツフォルダ",
+    "user": "ユーザー",
+    "account": "アカウント情報",
+    "reseller": "入稿先",
+    "project": " コンテンツ",
+    "upload": "データベースアップロード",
+    "import": "コンテンツ登録",
+    "report_tracking": "レポート"
+  },
+  "search_bar": {
+    "publish_status": {
+      "published": "入稿済み",
+      "pending": "ペンディング",
+      "save_temp": "仮入稿"
+    },
+    "create_date": {
+      "from": "開始日",
+      "to": "最終日"
+    },
+    "filter": {
+      "operator": "オペレータ検索",
+      "reseller": "入稿先検索"
+    }
+  },
+  "page_title": {
+    "admin_account": "管理者アカウント",
+    "my_account": "アカウント情報",
+    "content_folder": "コンテンツフォルダ",
+    "register_content_folder": "コンテンツフォルダ設定",
+    "reseller": {
+      "list": "入稿先リスト",
+      "detail": "入稿先詳細",
+      "create": "入稿先を作成"
+    },
+    "user_list": "ユーザーリスト",
+    "user_create": "ユーザーを作成",
+    "user_detail": "ユーザー詳細",
+    "project": {
+      "list": "コンテンツリスト",
+      "detail": "コンテンツ詳細",
+      "create": "コンテンツ作成",
+      "bibliographic_data": "書誌データ",
+      "edition": "刷"
+    },
+    "publish": {
+      "create": "入稿",
+      "detail": "入稿詳細"
+    },
+    "upload": {
+      "list": "データベースをアップロード"
+    },
+    "import": {
+      "list": "Boxからコンテンツを登録"
+    },
+    "book": "書籍情報",
+    "forgot_pass": "パスワードリセット",
+    "edition": {
+      "add": "メモを追加",
+      "create_file_text": "メモファイル作成",
+      "existed_file": "既存ファイル"
+    },
+    "report_tracking": {
+      "show_and_hide": "コラムの表示・非表示",
+      "list": "レポート",
+      "export_report_tracking": "レポートのダウンロード"
+    }
+  },
+  "header": {
+    "edition": "刷",
+    "bibliographic_data": "書誌情報",
+    "in_process_file": "作業中ファイルリスト",
+    "public_history": "入稿履歴",
+    "project_info": "コンテンツ情報",
+    "edition_info": "刷情報",
+    "metadata": "ファイルにメタデータを追加",
+    "publish_info": "入稿情報",
+    "select_reseller": "入稿先を選択",
+    "select_file": "入稿ファイルを選択",
+    "reseller_info": "入稿先情報",
+    "select_book": "本の選択",
+    "ignore_existed_data": "レコードが既にある場合は飛ばす",
+    "replace_existed_data": "レコードが既にある場合は上書きする",
+    "create_note_file": "メモファイル作成",
+    "zip_file": "仮入稿ZIPファイル"
+  },
+  "button": {
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "grant_access": "Boxへのアクセスを許可する",
+    "cancel": "中止",
+    "ok": "OK",
+    "back": "戻る",
+    "save": "保存",
+    "saving": "保存中",
+    "add": "追加",
+    "delete": "削除",
+    "export": "エクスポート",
+    "export_all": "全てダウンロード",
+    "change_password": "パスワード変更",
+    "change_email": "メールアドレスを変更しました",
+    "add_content_folder": "コンテンツフォルダを追加",
+    "no": "いいえ",
+    "yes": "はい",
+    "submit": "送信",
+    "create": "作成",
+    "creating": "作成中",
+    "edit": "編集",
+    "add_edition": "刷を追加",
+    "select": "選択",
+    "delete_all": "全て削除",
+    "select_incoming_file": "入手ファイルを選択",
+    "select_reseller": "入稿先を選択",
+    "select_publish_file": "入稿ファイルを選択",
+    "publish": "入稿",
+    "publishing": "入稿中",
+    "upload": "アップロード",
+    "import": "登録",
+    "book_data": "書誌情報",
+    "add_note_file": "メモを追加",
+    "new": "新規入稿",
+    "new_file_note": "メモを追加",
+    "select_file": "ファイルを選択",
+    "import_project": "コンテンツの登録",
+    "ignore_existed_data": "重複データを無視",
+    "replace_existed_data": "重複データを書換",
+    "filter": "フィルタ",
+    "actions": "アクション",
+    "save_temp": "仮入稿"
+  },
+  "label": {
+    "check_file": "入稿するファイルを選択してください",
+    "username": "ユーザー名",
+    "password": "パスワード",
+    "remember_me": "ログインを記憶する",
+    "forgot_password": "パスワードをリセット",
+    "register_content_folder": "コンテンツフォルダを設定",
+    "select_project": "読み取るBox上のコンテンツ選択",
+    "old_password": "旧パスワード",
+    "new_password": "新パスワード",
+    "re_password": "パスワード確認",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "name": "名称",
+    "website": "ウェブサイト",
+    "fax": "FAX",
+    "company_name": "会社名",
+    "contact_name": "担当者名",
+    "publisher_name": "出版社名",
+    "no_data": "データがありません",
+    "login": "ログイン",
+    "existed_file": "ファイルは既にシステム内に存在します",
+    "user": {
+      "active": "アクティブ",
+      "first_name": "名",
+      "last_name": "氏",
+      "email": "メールアドレス",
+      "phone": "電話番号",
+      "user_name": "ユーザー名",
+      "password": "パスワード",
+      "confirm_password": "パスワード確認",
+      "company": "会社名",
+      "department": "部門"
+    },
+    "project": {
+      "isbn": "ISBN",
+      "book_code": "コード",
+      "title": "題名",
+      "author": "著者",
+      "version": "バージョン",
+      "edition": "刷",
+      "date_publish": "発売日",
+      "price": "価格",
+      "create_date": "作成日",
+      "modify_date": "最終更新日",
+      "content_folder": "コンテンツフォルダ"
+    },
+    "edition": {
+      "name": "刷",
+      "price": "価格",
+      "version": "バージョン",
+      "date_of_paper_edition": "紙版の発売日",
+      "status": "刷ステータス",
+      "waiting_for_file": "入手待ち",
+      "working": "作業中",
+      "completed": "完了",
+      "name_note": "ファイル名",
+      "content_note": "メモ"
+    },
+    "file": {
+      "select_all": "すべて選択",
+      "name": "ファイル名",
+      "size": "サイズ",
+      "pending": "ペンディング",
+      "in_progress": "作業中",
+      "complete": "完了",
+      "error": "エラー"
+    },
+    "file_info": {
+      "name": "ファイル名",
+      "description": "説明",
+      "owner": "オーナー",
+      "owner_email": "オーナーのメールアドレス",
+      "size": "サイズ",
+      "type": "種類",
+      "sha1": "SHA1",
+      "create_date": "作成日",
+      "last_modified": "最新更新日",
+      "upload_to_box": "boxにアップロード日",
+      "last_update_in_box": "boxでの最終更新日",
+      "add_metadata": "メタデータ追加",
+      "no_metadata": "メタデータがありません。「追加」ボタンでメタデータをファイルにつけられます。",
+      "warn_metadata": "このファイルにメタデータを追加します。Boxでメタデータを検索・閲覧できます。",
+      "key": "キー",
+      "value": "値"
+    },
+    "publish": {
+      "operation": "オペレーション",
+      "publishing_status": "ステータス",
+      "operator": "担当者",
+      "date": "日付",
+      "release_date": "発売日",
+      "hash": "ハッシュ値",
+      "production_notes": "制作ノート",
+      "notes": "コメント",
+      "publish_file_type": "ファイル種"
+    },
+    "book_data": {
+      "record_reference": "ISBNがない場合はJP-eコード",
+      "notification_type": "情報ステータス",
+      "notification_type_value": {
+        "publication_notify": "内容確定",
+        "advance_notify": "確定前",
+        "delete": "削除"
+      },
+      "available_pc": {
+        "yes": "有",
+        "no": "無"
+      },
+      "issue_form": {
+        "book": "書籍",
+        "magazine": "雑誌"
+      },
+      "deletion_text": "削除事由",
+      "product_identifier": "製品コード",
+      "productID_type": "製品コード種",
+      "id_type_name": "コード種類名",
+      "id_value": "コード種類値",
+      "descriptive_detail": "記述詳細",
+      "product_composition": "セット商品分売可否",
+      "product_composition_value": {
+        "single_product": "単品分売不可",
+        "multiple_separated_product": "セット商品分売可",
+        "multiple_product": "セット商品分売不可"
+      },
+      "product_form": "判型",
+      "product_form_value": {
+        "book": "本",
+        "other_book": "その他判型",
+        "general_merchandise": "判型未定"
+      },
+      "product_form_detail": "判型詳細",
+      "product_form_detail_value": {
+        "a5_tankobon": "A5",
+        "b5_tankobon": "B5",
+        "b6_tankobon": "B6",
+        "a6_bunkon": "文庫",
+        "b40_dori_shinsho": "新書",
+        "46": "46",
+        "46_henkei": "46変形",
+        "a4": "A4",
+        "a4_henkei": "A4変形",
+        "a5_henkei": "A5変形",
+        "b5_henkei_size": "B5変形",
+        "b6_henkei_size": "B6変形",
+        "ab_size": "AB",
+        "b7_size": "B7",
+        "kiku_size": "菊",
+        "kiku_henkei_size": "菊変形",
+        "jis_b4_size": "B4"
+      },
+      "measure": "寸法",
+      "measure_type": "寸法種類",
+      "measure_type_value": {
+        "height": "タテ",
+        "width": "ヨコ",
+        "thickness": "アツサ",
+        "unit_weight": "重量"
+      },
+      "measurement": "値",
+      "measure_unit_code": "単位",
+      "product_part": "付録・付属資料の有無",
+      "product_part_value": {
+        "undefined": "未定"
+      },
+      "product_form_description": "付録内容",
+      "number_of_items_of_this_form": "本フォームの項目数（1に固定）",
+      "collection": "コレクション",
+      "collection_type": "コレクションの種類",
+      "collection_type_value": {
+        "publisher_collection": "出版社によって決められたコレクション"
+      },
+      "collection_sequence": "コレクション順番",
+      "collection_sequence_type": "順番タイプ",
+      "collection_sequence_type_value": {
+        "proprietary": "完結フラグ",
+        "publication_order": "配本回数"
+      },
+      "collection_sequence_type_name": "完結フラグ",
+      "collection_sequence_number": "配本回数　（完結フラグの場合は「未完」の場合は0、「完結",
+      "title_detail": "書名情報",
+      "title_type": "種類",
+      "title_type_value": {
+        "distinctive_title": "固有の題名"
+      },
+      "title_element": "コレクション情報",
+      "title_element_level": "レベル",
+      "title_element_level_value": {
+        "product": "各巻書名",
+        "collection_level": "レーベル",
+        "subcollection": "シリーズ名"
+      },
+      "part_number": "巻次",
+      "title_text": "書名",
+      "subtitle": "サブタイトル",
+      "contributor": "著者情報",
+      "sequence_number": "順序",
+      "contributor_role": "著者区分",
+      "contributor_role_value": {
+        "author": "著・文・その他",
+        "screen_by": "脚本",
+        "by_composer": "作曲",
+        "edit_by": "編集",
+        "consultant_editor": "監修",
+        "translated_by": "翻訳",
+        "illustrated_by": "イラスト",
+        "original_author": "原著",
+        "idea_by": "企画・原案",
+        "photographer": "写真",
+        "commentaries_by": "解説",
+        "read_by": "朗読"
+      },
+      "person_name": "著者名",
+      "person_name_kana": "著者名　読み",
+      "biographical_note": "著者略歴",
+      "no_contributor": "著者なし",
+      "edition_type": "版の種類",
+      "edition_type_value": {
+        "new_edition": "新版"
+      },
+      "edition_statement": "版表示",
+      "language": "言語",
+      "language_role": "言語区分",
+      "language_role_value": {
+        "lang_text": "に固定する"
+      },
+      "language_code": "言語設定",
+      "language_code_value": {
+        "jan": "日本語",
+        "eng": "英語"
+      },
+      "country_code": "国コード",
+      "extent": "ページ数",
+      "extent_type": "範囲区分",
+      "extent_type_value": {
+        "content_page_count": "コンテンツのページ数"
+      },
+      "extent_value": "ページ数",
+      "extent_unit": "単位",
+      "extent_unit_value": {
+        "pages": "ページ数"
+      },
+      "subject": "主題",
+      "main_subject": "主題",
+      "subject_scheme_identifier": "カテゴリコード種",
+      "subject_scheme_identifier_value": {
+        "keywords": "キーワード",
+        "ja_ccode": "Cコード",
+        "ja_genre_code": "ジャンルコード",
+        "nippon_decimal_classify": "日本十進分類法"
+      },
+      "subject_scheme_version": "NDC分類の版",
+      "subject_code": "カテゴリコード",
+      "subject_heading_text": "キーワード",
+      "audience": "対象読者",
+      "audience_code_type": "対象者コード種",
+      "audience_code_type_value": {
+        "ja_chidren_audience_code": "児童書読書コード",
+        "onix_adult_audience_rating": "ONIX 成人読者レーティング"
+      },
+      "audience_code_value": "コード",
+      "audience_code_value_21": {
+        "02_old": "0～2歳",
+        "35_old": "3～5歳",
+        "lower_elementary_school": "小学低学年",
+        "elementary_school": "小学中学年",
+        "elementary_high_school": "小学高学年",
+        "general_elementary_school": "小学全般",
+        "middle_school": " 中学以上",
+        "high_school": "高校"
+      },
+      "audience_code_value_22": {
+        "unrated": "指定なし",
+        "any_adult_audience": "成人指定",
+        "warning_for_adult": "成人向け",
+        "warning_for_adult_sex": "成人向け　（性）",
+        "warning_for_adult_violence": "成人向け　（暴力）",
+        "warning_for_adult_drug": "成人向け　（薬物）",
+        "warning_for_adult_language": "成人向け　（言語）"
+      },
+      "collateral_detail": "付帯項目",
+      "text_content": "内容紹介・目次",
+      "text_type": "種類",
+      "text_type_value": {
+        "short_description": "内容紹介 取次広報誌用、内容紹介 図書館選書用",
+        "description": "内容紹介 オンライン書店用",
+        "jbpa_description": "内容紹介 これから出る本用",
+        "table_content": "目次"
+      },
+      "content_audience": "対象者",
+      "content_audience_value": {
+        "unrestricted": "非限定　（読者含む）",
+        "librarians": "図書館員"
+      },
+      "text": "文章",
+      "supporting_resource": "画像",
+      "resource_content_type": "画像の種類",
+      "resource_content_type_value": {
+        "front_cove": "書影",
+        "product_image": "字商品イメージ"
+      },
+      "resource_content_audience_value": {
+        "restricted": "ONIXデータを交換する当事者間での合意による配布"
+      },
+      "resource_mode": "画像モード",
+      "resource_mode_value": {
+        "image": "静止画"
+      },
+      "resource_version": "バージョン",
+      "resource_form": "画像種類",
+      "resource_form_value": {
+        "downloadable_file": "ダウンロード可能なファイル"
+      },
+      "resource_version_feature": "形式・ファイル名",
+      "resource_version_feature_type": "区分",
+      "resource_version_feature_type_value": {
+        "file_format": "ファイル形式",
+        "file_name": "ファイル名"
+      },
+      "feature_value": "値",
+      "resource_link": "画像リンク",
+      "content_detail": "コンテンツ詳細（該当なし）",
+      "publish_detail": "出版情報",
+      "imprint": "発行元出版社",
+      "imprint_identifier": "出版社コード",
+      "imprint_id_type": "コードの種類",
+      "imprint_id_type_value": {
+        "japanese_publisher_identifier": "ISBN出版社記号",
+        "jp_distribution_identifier": "取引コード"
+      },
+      "imprint_name": "発行元出版社名",
+      "publisher": "発売元出版社",
+      "publisher_role": "役割",
+      "publisher_role_value": {
+        "publisher": "出版社"
+      },
+      "publisher_identifier": "出版社コード",
+      "publisher_id_type": "コードの種類",
+      "publisher_name": "発売元出版社名",
+      "product_contact": "商品に対する連絡先",
+      "product_contact_role": "連絡先役割",
+      "product_contact_role_value": {
+        "access_request": "アクセスしやすい連絡先（固定）"
+      },
+      "product_contact_name": "連絡先出版社名",
+      "contact_name": "担当者名・部署",
+      "email_address": "Eメールアドレス",
+      "publishing_status": "長期品切れ情報",
+      "publishing_status_value": {
+        "inactive": "未アクティブ"
+      },
+      "publishing_date": "出版時期",
+      "publishing_date_role": "日付種類",
+      "publishing_date_role_value": {
+        "forthcoming_date": "刊行形態",
+        "publication_date": "発売予定日",
+        "embargo_date": "発売協定日",
+        "annoucement_date": "発売情報解禁日",
+        "first_publication": "発行年月日",
+        "order_deadline": "注文・申し込み締め切り日"
+      },
+      "date": "日付・刊行形態",
+      "related_material": "旧版情報",
+      "related_product": "旧版商品",
+      "product_relation_code": "関係性",
+      "product_relation_code_value": {
+        "replace": "Replaces （固定）"
+      },
+      "product_id_type": "コード種類",
+      "product_supply": "出版状況等",
+      "market_publishing_detail": "出版状況",
+      "publisher_rep": "扱い社",
+      "agent_role": "役割",
+      "agent_role_value": {
+        "sales_agent": "扱い社　（固定）"
+      },
+      "agent_identifier": "扱い社コード",
+      "agent_id_type": "コード種類",
+      "agent_id_type_value": {
+        "proprietary": "独自コード"
+      },
+      "agent_name": "扱い社名",
+      "market_publishing_status": "取次会社・配本",
+      "market_publishing_status_value": {
+        "unspecified": "Unspecified　（固定）"
+      },
+      "market_publishing_status_notes": "取次会社・配本の有無",
+      "supply_detail": "供給情報等",
+      "supplier": "供給業者について",
+      "supplier_role": "役割",
+      "supplier_name": "供給業者名",
+      "returns_conditions": "返品条件",
+      "returns_code_type": "返品コード種",
+      "returns_code_type_value": {
+        "onix_condition_code": "ONIX返品条件コード　（固定）"
+      },
+      "returns_code": "返品条件コード",
+      "returns_code_value": {
+        "sale_or_return": "委託　（デフォルト）",
+        "firm_sale": "買切",
+        "unspecified": "注文"
+      },
+      "product_availability": "供給状況",
+      "product_availability_value": {
+        "contact_supplier": "供給業者に連絡　（固定）"
+      },
+      "price": "本体価格",
+      "price_type": "値段種類",
+      "price_type_value": {
+        "fixed_retail": "再販商品（本体価格）",
+        "rrp_ex_tax": "非再販商品(特価本体価格、希望小売価格)",
+        "spec_fix_retail": "再販商品(特価本体価格)",
+        "spec_rrp_ex": "非再販商品(特価本体価格、希望小売価格)"
+      },
+      "price_amount": "価格",
+      "tax": "税について",
+      "tax_rate_code": "税率タイプ",
+      "tax_rate_code_value": {
+        "standard_rate": "標準税率",
+        "lower_rate": "軽減税率"
+      },
+      "tax_rate_percent": "税率パーセント",
+      "currency_code": "通貨単位",
+      "price_date": "価格に関する日付",
+      "price_date_role": "日付役割",
+      "price_date_role_value": {
+        "from_date": "開始日",
+        "until_date": "終了日"
+      }
+    },
+    "report_tracking": {
+      "check_field": "表示フィールド"
+    },
+    "notify_setting": {
+      "file_upload": "ファイルアップロード",
+      "file_delete": "ファイル削除",
+      "folder_rename": "フォルダ名変更",
+      "folder_delete": "フォルダ削除"
+    }
+  },
+  "validation": {
+    "input_length": {
+      "maxlength": "このフィールドの最大文字数は __maxlength__ です",
+      "minlength": "このフィールドの最小文字数は __minlength__ です"
+    },
+    "required": "この項目は必要です",
+    "password": {
+      "min_length": "最低6文字入れてください",
+      "new_pass_required": "新しいパスワードを入れてください。"
+    },
+    "confirm_password": {
+      "min_length": "最低6文字入れてください",
+      "repeat": "パスワードが合いません"
+    },
+    "first_name": {
+      "invalid_pattern": "名の形式が違います"
+    },
+    "last_name": {
+      "invalid_pattern": "姓の形式が違います"
+    },
+    "user_name": {
+      "invalid_pattern": "ユーザー名の形式が違います"
+    },
+    "email": {
+      "exist": "このメールアドレスは既に存在します",
+      "invalid": "メールアドレスが無効です",
+      "invalid_pattern": "メールアドレスの形式が違います"
+    },
+    "phone_number": {
+      "invalid_pattern": "電話番号の形式が違います"
+    },
+    "phone": {
+      "invalid_pattern": "電話番号の形式が違います"
+    },
+    "fax": {
+      "invalid_pattern": "ファックス番号の形式が違います"
+    },
+    "website": {
+      "invalid_pattern": "ウェブサイトの形式が違います"
+    },
+    "isbn": {
+      "pattern": "13または20文字のISBNを入れてください"
+    },
+    "re_password": {
+      "not_math": "確認用パスワードは一致しません"
+    },
+    "edition": {
+      "price": {
+        "invalid_pattern": "価格の形式が違います",
+        "greater_than_zero": "価格はゼロより大きく設定してください",
+        "max_length": "最大32文字です",
+        "invalid_number": "値段は0から1000000000の間で指定"
+      }
+    },
+    "chars": {
+      "limit_chars": "最大64文字です",
+      "limit_chars_255": "最大255文字です"
+    },
+    "metadata": {
+      "key_required": "キーは必要です",
+      "value_required": "値は必要です"
+    },
+    "publish": {
+      "date": {
+        "invalid": "日付は無効です",
+        "pattern": "日付形式が違います(mm/dd/yyyy)"
+      }
+    },
+    "book_data": {
+      "product_id_value": {
+        "number_invalid": "商品コードは20文字です"
+      },
+      "id_value": {
+        "pattern": "ID値の形式が違います（13文字）",
+        "pattern_4_digits": "ID値の形式が違います（4桁）",
+        "pattern_7_digits": "形式が違います（ハイフンなし7桁）",
+        "pattern_8_digits": "形式が違います（8桁",
+        "pattern_13_digits": "形式が違います（ハイフンなし13桁）",
+        "pattern_20_digits": "形式が違います（20桁）"
+      },
+      "measurement": {
+        "number_invalid": "形式が違います（整数）"
+      },
+      "measure_unit_code": {
+        "pattern": "形式が違います（2文字）"
+      },
+      "number_of_items_of_this_form": {
+        "pattern": "無効な数値パターン"
+      },
+      "sequence_number": {
+        "pattern": "無効な数値パターン"
+      },
+      "person_name_kana": {
+        "pattern": "スペース無しのかなで入力してください"
+      },
+      "extent_value": {
+        "pattern": "無効な数値パターン"
+      },
+      "resource_link": {
+        "pattern": "形式が違います（W3C URL形式）"
+      },
+      "email_address": {
+        "pattern": "電子メールアドレスが間違った形式です"
+      },
+      "market_publishing_status_notes": {
+        "pattern": "形式が違います（3文字）"
+      }
+    },
+    "date": {
+      "wrong_format": "日付の形式が違います（MM/DD/YYYY)"
+    }
+  },
+  "message": {
+    "select_reseller": "入稿先を選択してください",
+    "check_again": "入稿に必要な情報を入れてください",
+    "register_success": "コンテンツフォルダを設定しました",
+    "del_fol": "クラウドフォルダを削除しました",
+    "del_fol_mgs": "このフォルダを削除しますか？",
+    "del_success": "フォルダを削除しました",
+    "change_pass_success": "パスワードを変更しました",
+    "grant_success": "Boxとの接続成功",
+    "there_errors": "エラーが起きました",
+    "update_user": "保存しました",
+    "upload_success": "アップロードしました",
+    "max_upload": "アップロードファイルの最大サイズは50MBです。",
+    "start_import_success": "データベースにデータを登録します",
+    "update_book_data": "書誌データが更新されました",
+    "update_additional_detail": "情報を更新しました",
+    "reset_forgot_pass": "メールのリセットコードを確認してください",
+    "forgot_pass_success": "パスワードを更新しました",
+    "reseller": {
+      "delete": "入稿先を削除",
+      "delete_single_mgs": "この入稿先を削除しますか？",
+      "delete_mgs": "この入稿先を削除しますか？",
+      "delete_success": "入稿先を削除しました",
+      "delete_error": "入稿先を削除できませんでした",
+      "create_success": "入稿先を追加しました",
+      "create_error": "入稿先を追加できませんでした",
+      "update_success": "入稿先を更新しました"
+    },
+    "user": {
+      "delete": "ユーザーを削除します",
+      "delete_mgs": "ユーザーを削除してもいいですか？",
+      "delete_success": "ユーザーを削除しました",
+      "delete_error": "ユーザーを削除できませんでした",
+      "create_success": "ユーザーを追加しました",
+      "update_success": "ユーザーを更新しました"
+    },
+    "project": {
+      "create_success": "コンテンツを作成しました",
+      "create_existed_book_success": "既存ISBNによるコンテンツを作成しました",
+      "update_success": "コンテンツを更新しました",
+      "delete": "コンテンツを削除します",
+      "delete_single_mgs": "コンテンツを削除してもいいですか？",
+      "delete_mgs": "コンテンツを削除してもいいですか？",
+      "delete_success": "コンテンツを削除しました",
+      "delete_error": "コンテンツを削除できませんでした",
+      "book_code_and_isbn_empty": "ISBN/書籍コードは必須です"
+    },
+    "edition": {
+      "create_success": "新しい刷を追加しました",
+      "update_success": "刷を更新しました"
+    },
+    "select-file": {
+      "move_file_success": "ファイルを「作業中」に移動しました",
+      "move_file_failed": "ファイルを「作業中」に移動できませんでした",
+      "add_file_to_inprocess_success": "ファイルを追加しました",
+      "add_file_to_inprocess_failed": "ファイルを追加できませんでした",
+      "add_file_to_inprocess_duplicate": "ファイルは重複しています"
+    },
+    "metadata": {
+      "create_success": "メタデータを追加しました",
+      "update_success": "メタデータを更新しました",
+      "create_error": "メタデータを追加できませんでした",
+      "delete_all_success": "メタデータを削除しました",
+      "delete": "メタデータを削除します",
+      "delete_mgs": "メタデータを削除してもいいですか？"
+    },
+    "publish": {
+      "miss_select_reseller": "入稿先を選択してください",
+      "miss_select_file": "入稿ファイルを選択してください",
+      "save_publish_success": "入稿情報を保存しました",
+      "update_publish_success": "入稿情報を更新しました",
+      "create_success": "入稿しました",
+      "save_temp_success": "仮入稿しました",
+      "update_success": "入稿情報を更新しました",
+      "input_date_error": "日付は無効です"
+    },
+    "file_info": {
+      "delete": "ファイル削除確認",
+      "delete_mgs": "ファイルを削除しますか？",
+      "delete_success": "ファイルを削除しました",
+      "delete_error": "ファイルを削除できません",
+      "upload_success": "メモファイルを追加しました",
+      "upload_error": "メモファイルを追加できませんでした",
+      "error_acquisition_date": "日付は無効です"
+    },
+    "import": {
+      "validate_error": "コンテンツを追加できません。ISBNまたはコードの形式が違います。",
+      "success": "Boxのフォルダを選択しました"
+    },
+    "report_tracking": {
+      "tooltip_setting": "レポートで表示するフィールドの選択",
+      "tooltip_refresh": "レポートを更新",
+      "error_date_from": "開始日が指定されていません",
+      "error_date_to": "最終日が指定されていません",
+      "error_date_to_invalid": "日付は無効です",
+      "date_from_invalid": "日付は無効です",
+      "date_from_than_date_to": "開始日は最終日より前にしてください",
+      "reseller_filter_empty": "入稿先が空です",
+      "operator_filter_empty": "オペレータが空です"
+    }
+  },
+  "table": {
+    "search": "検索",
+    "tracking_search": "タグや値でフィルタまたはキーワードで検索",
+    "header": {
+      "phone": "電話",
+      "no_data": "データなし",
+      "load_more": "もっと表示",
+      "detail": "詳細",
+      "description": "詳細",
+      "created_date": "作成日",
+      "status": "ステータス",
+      "setting": "設定",
+      "first_name": "名",
+      "middle_name": "ミドルネーム",
+      "last_name": "姓",
+      "email": "メールアドレス",
+      "time_zone": "タイムゾーン",
+      "size": "サイズ",
+      "lang": "言語設定",
+      "account_info": "アカウント情報",
+      "full_name": "フルネーム",
+      "event": "イベント",
+      "last_modified": "最後に変更",
+      "members": "メンバー数",
+      "folder_name": "フォルダ名",
+      "box_folder_id": "BoxフォルダID",
+      "modified_date": "更新日",
+      "active": "アクティブ",
+      "name": "名前",
+      "website": "Webサイト",
+      "user_name": "ユーザー名",
+      "isbn": "ISBN",
+      "title": "題名",
+      "author": "著者",
+      "file_name": "ファイル名",
+      "file_type": "ファイル種",
+      "owner": "オーナー",
+      "file_size": "サイズ",
+      "sha1": "SHA1",
+      "publisher": "出版社",
+      "printing_number": "刷",
+      "release_date": "発売日",
+      "base_price": "定価",
+      "incoming_list": "入手ファイルリスト",
+      "inprogress_list": "作業中ファイルリスト",
+      "file_info": "ファイル情報",
+      "file_detail": "ファイル詳細",
+      "file_custom_metadata": "カスタムメタデータ",
+      "file_template_metadata": "標準メタデータ",
+      "format": "種類",
+      "hash": "ハッシュ値",
+      "source": "入手元",
+      "person_in_charge": "担当者",
+      "acquisition_date": "入手日",
+      "file": "ファイルへのリンク",
+      "memo": "メモ",
+      "operation": "オペレーション",
+      "publish_status": "ステータス",
+      "production": "制作ノート",
+      "link_to_box": "ファイルへのリンク",
+      "notes": "コメント",
+      "action": "アクション",
+      "total_records": "レコード数",
+      "select_file": "ファイルを選択",
+      "root_folder_id": "フォルダID",
+      "root_folder_name": "フォルダ名",
+      "error_records": "エラー数",
+      "success_records": "取込成功数",
+      "import_project": "コンテンツの登録",
+      "isbn_prefix": "ISBNプレフィックス",
+      "book_code": "コード",
+      "edition": "版",
+      "price": "価格",
+      "reseller": "入稿先",
+      "operator": "担当者",
+      "operation_date": "オペレーション日",
+      "notify_setting": "通知設定",
+      "edition_status": "刷ステータス",
+      "publish_status_tracking": "入稿状況"
+    },
+    "empty_table": "テーブルにデータがありません",
+    "create_new_note_file": "メモファイル作成"
+  },
+  "api": {
+    "unknown_error": "エラーが発生しました",
+    "status": {
+      "200": "成功",
+      "400": "リクエストは無効です",
+      "401": "アクセストークンが失効してます",
+      "403": "アクセスは拒否されました",
+      "406": "パラメータは無効です",
+      "407": "フォルダは既に存在します",
+      "500": "内部サーバーエラー",
+      "501": "モデルが作成できません",
+      "600": "アクセストークンが見つかりません",
+      "601": "アクセストークンが無効です",
+      "602": "アクセストークンが失効してます",
+      "603": "セッションの日付が無効です",
+      "604": "セッションが見つかりません",
+      "605": "ログインアカウントが無効です",
+      "606": "ユーザーセッションが作成できません",
+      "607": "管理者セッションが作成できません",
+      "608": "Boxのアクセストークンが見つかりません",
+      "700": "モデルデータが間違っています",
+      "701": "ユーザーが見つかりません",
+      "702": "パスワードが合いません",
+      "703": "メールアドレスは既に存在します",
+      "704": "ユーザーを作成できません",
+      "705": "メールアドレスが無効です",
+      "706": "パラメータが無効です",
+      "707": "代理人を設定できません",
+      "708": "ユーザーを更新できませんでした",
+      "709": "フォルダが見つかりません",
+      "717": "旧パスワードは間違っています",
+      "800": "このISBNは既に存在します",
+      "801": "コンテンツが見つかりません",
+      "802": "コードは既にあります",
+      "804": "書誌情報がありません",
+      "805": "コンテンツを追加できません。既に存在します。",
+      "814": "刷が見つかりません",
+      "815": "刷リストが空です",
+      "816": "刷が既にBox上にあります",
+      "817": "新しい刷は作れません",
+      "820": "入稿先は既に存在します",
+      "821": "この入稿先は存在しません",
+      "831": "アップロードファイルが見つかりません",
+      "840": "入稿処理にエラーが発生しました",
+      "841": "CSVファイルをアップロードしてください",
+      "843": "レポートのCSVファイルを作成できませんでした",
+      "844": "レポートにレコードがありません",
+      "850": "ファイル情報が見つかりません",
+      "901": "Boxユーザー情報が取得できません",
+      "902": "ウェブフックを登録できません",
+      "903": "authenモデルが取得できません",
+      "905": "Boxからフォルダを取得できません",
+      "907": "BoxからAPIを呼べます",
+      "910": "Boxのフォルダにウェブフックを設定してません"
+    }
+  },
+  "language": {
+    "english": "英語",
+    "japanese": "日本語"
+  },
+  "tooltip": {
+  },
+  "export": {
+    "label": {
+      "export_all": "全てダウンロード",
+      "export_from_ui": "表示中のページをダウンロード",
+      "from_date": "開始日",
+      "to_date": "最終日"
+    }
+  },
+  "reseller-template": {
+    "pubridge": {
+      "title": "タイトル名",
+      "title_kana": "タイトル名カナ",
+      "publisher": "出版社名 ",
+      "label": "レーベル名",
+      "label_kana": "レーベル名ヨミ",
+      "label_type": "レーベルタイプ",
+      "magazine_name": "掲載誌名",
+      "series_name": "シリーズ名",
+      "series_name_kana": "シリーズ名ヨミ",
+      "genre": "ジャンルID",
+      "sub_genre": "サブジャンルID",
+      "type": "発行形態",
+      "adult_flag": "アダルトフラグ（性的表現）",
+      "contents_type": "コンテンツタイプ",
+      "volume": "タイトル連番",
+      "contents_name": "コンテンツ名",
+      "contents_name_kana": "コンテンツ名カナ",
+      "retail_price": "希望小売価格",
+      "long_description": "説明文（長）",
+      "short_description": "説明文（短）",
+      "file_name": "ファイル名",
+      "color_flag": "カラーフラグ",
+      "jdcn_code": "JDCNコード（20桁固定）",
+      "number_of_pages": "ページ数",
+      "original_version_date": "底本公開日（yyyy/m(m)/（d）d）",
+      "original_version_isbn": "底本ISBN",
+      "publisher_book_code": "出版者経理コードコンテンツ",
+      "author": "著者名",
+      "author_kana": "著者名カナ",
+      "author_role": "著者区分",
+      "format": "フォーマット_制作区分",
+      "number_of_replays": "再生回数",
+      "replay_expiry_date": "再生期限",
+      "redownload_time": "再ダウンロード可能時間",
+      "number_of_redownloadable_devides": "再ダウンロード可能端末数",
+      "audio_replay_flag": "音声再生フラグ",
+      "language": "言語",
+      "metadata": "メタ情報",
+      "binding": "ページ綴じ",
+      "table_of_contents": "目次",
+      "number_of_sample_pages": "サンプルページ数",
+      "copyright": "コピーライト",
+      "sample_percentage": "サンプルパーセント",
+      "original_version_price": "底本価格(税抜)",
+      "contents_format": "コンテンツ形態",
+      "jpe_code": "JP-eコード",
+      "allow_quote_to_sns": "SNS投稿のための本文引用可否",
+      "jan_code": "JANコード",
+      "publishing_cycle_id": "発行サイクルID",
+      "magazine_serial_number": "雑誌通し番号",
+      "release_date": "公開開始日",
+      "allow_reservation_date": "予約解禁日",
+      "end_release_date": "公開終了日",
+      "allow_comments": "コメント可否",
+      "Remarks": "備考",
+      "Imprint": "出版社",
+      "Imprint_kana": "出版社（かな）",
+      "choose_file_name": "ファイル名選択",
+      "notes": "備考"
+    },
+    "kindle": {
+      "publisher_name": "出版社",
+      "publisher_name_kana": "出版社（フリガナ",
+      "reference_id": "主コード",
+      "e_isbn": "電子書籍ISBN",
+      "jdpc_id": "20桁コード",
+      "print_book_isbn": "紙書籍版ISBN",
+      "title": "タイトル",
+      "title_kana": "タイトル（フリガナ）",
+      "series_title": "シリーズタイトル",
+      "series_title_kana": "シリーズタイトル（フリガナ）",
+      "series_number": "シリーズ内通し番号",
+      "publisher_label": "レーベル",
+      "publisher_label_pronunciation": "レーベル（フリガナ）",
+      "edition": "版",
+      "volume": "巻",
+      "description": "内容紹介",
+      "release_date": "発売日",
+      "adult_flag": "アダルト商品",
+      "bisac": "BISAC",
+      "bic": "BIC",
+      "wgs": "WGS",
+      "ndc": "NDC",
+      "kindle-ndc": {
+        "manga": "漫画",
+        "novel": "小説",
+        "light_nodel": "ライトノベル",
+        "boys_love_novels": "ボーイズラブノベルス",
+        "boys_love_comics": "ボーイズラブコミックス",
+        "talent_photo": "タレント写真集",
+        "chidlren_reading": "児童書（読み物）",
+        "chidlren_nonfiction": "児童書（ノンフィクション・伝記）"
+      },
+      "language": "言語",
+      "digital_list_price": "希望小売価格（税抜）",
+      "currency": "通貨",
+      "territory": "販売地域",
+      "exclude_territory": "販売不可地域",
+      "authors": "著者",
+      "authors_kana": "著者（フリガナ）",
+      "editors": "編集",
+      "editors_kana": "編集（フリガナ）",
+      "illustrators": "イラスト",
+      "illustrators_kana": "イラスト（フリガナ）",
+      "contributors": "寄稿",
+      "contributors_kana": "寄稿（フリガナ）",
+      "translators": "翻訳",
+      "translators_kana": "翻訳（フリガナ）",
+      "photographers": "写真",
+      "photographers_kana": "写真（フリガナ）",
+      "readers": "監修",
+      "readers_kana": "監修（フリガナ）",
+      "others": "その他著者",
+      "others_kana": "その他著者（フリガナ）",
+      "publishing_date": "出版日",
+      "site_launch_date": "サイト掲載日",
+      "keywords": "キーワード",
+      "approved_to_convert": "底本からの変換を希望",
+      "activate": "販売/販売停止",
+      "file_format": "ファイル形式",
+      "notes": "備考",
+      "author_roles": "著者役割",
+      "remark": "備考"
+    },
+    "kinoppy": {
+      "book_isbn": "書籍ISBN",
+      "ebook_id": "電子書籍用ID",
+      "internal_code": "出版社内部コード",
+      "title": "書籍名",
+      "title_kana": "書籍名カナ",
+      "volume": "巻次・年次",
+      "secondary_title": "副書籍名",
+      "secondary_title_kana": "副書籍名カナ",
+      "secondary_volume": "副書籍巻次",
+      "series_name": "シリーズ名",
+      "author": "著者名",
+      "author_kana": "著者名カナ",
+      "author_role": "著者区分",
+      "secondary_author": "副書名著者",
+      "publisher": "出版社名",
+      "summary": "要旨（概要）",
+      "table_of_contents": "目次",
+      "c_code": "Cコード",
+      "cover_image_name": "表紙画像ファイル名",
+      "notes": "備考/メモ",
+      "sale_type": "販売種別",
+      "availability_for_pc": "PC向け販売有無",
+      "price_without_tax": "価格（税抜）",
+      "special_price": "特価価格（税抜）",
+      "iap_special_price_with_tax": "IAP特価価格（税込）",
+      "special_start_date_time": "特価開始日時",
+      "special_end_date_time": "特価終了日時",
+      "browsing_file": "立ち読みファイル有無",
+      "ebook_file_name": "電子書籍ファイル名",
+      "browse_file_name": "立ち読みファイル名",
+      "invoice_code": "請求コード",
+      "publisher_accounting_code": "出版社経理コード",
+      "jasrac_code": "JASRAC申請コード",
+      "reservation_start_date_time": "予約開始日時",
+      "distribution_start_date": "配信開始日",
+      "final_delivery_date": "最終配信日",
+      "iap_price_with_tax": "IAP販売価格（税込）",
+      "content_id": "コンテンツID",
+      "valid_flag": "有効フラグ",
+      "sony_reader_sales": "ソニーReader販売",
+      "content_id_for_reader": "Reader用コンテンツID",
+      "reader_file_id": "ReaderファイルID",
+      "reader_file_id_browse": "ReaderファイルID（立ち読み）",
+      "reader_start_delivery_date": "Reader配信開始日",
+      "reader_end_delivery_date": "Reader最終配信日",
+      "issue_form": "発行形態",
+      "genre_id": "ジャンルID",
+      "sub_genre_id": "サブジャンルID",
+      "title_id": "タイトルID",
+      "title_serial_number": "タイトル連番",
+      "label_item": "レーベル項目",
+      "cloud_sync_enabled": "クラウド同期可能時間",
+      "format_subtype": "フォーマットサブタイプ",
+      "title_list": "セットタイトルリスト",
+      "identification_flag": "セット識別フラグ",
+      "bibliographic_categories": "書誌種別",
+      "automatic_generation_of_browsing_file": "立ち読みファイル自動生成可否",
+      "browse_file_creation_condition": "立ち読みファイル生成条件"
+    },
+    "kinoden": {
+      "content-id": "コンテンツID",
+      "book-magazine-classification": "書籍/雑誌区分",
+      "classification": {
+        "books": "書籍",
+        "magazines": "雑誌"
+      },
+      "e-isbn": "書籍‐eISBN",
+      "bottom-isbn": "書籍‐底本ISBN",
+      "e-code": "書籍‐電子出版コード",
+      "book-title": "書籍‐タイトル",
+      "title-kana": "書籍‐タイトルカナ",
+      "volume-and-annual": "書籍‐書籍‐巻次・年次",
+      "secondary-title": "書籍‐副書籍名",
+      "secondary-title-kana": "書籍‐副書籍名カナ",
+      "series-name": "書籍‐シリーズ名",
+      "series-name-kana": "書籍‐シリーズ名カナ",
+      "label-name": "書籍‐レーベル名",
+      "label-name-kana": "書籍‐レーベル名カナ",
+      "author-name": "書籍‐著者名",
+      "author-name-kana": "書籍‐著者名カナ",
+      "author-role": "著者区分",
+      "magazine-issn": "雑誌‐ISSN",
+      "magazine-jancode": "雑誌‐JANコード",
+      "magazine-journal-code": "雑誌‐雑誌コード",
+      "magazine-num-of-year": "雑誌‐号数年",
+      "magazine-num-of-month": "雑誌‐号数月",
+      "magazine-num-of-day": "雑誌‐号数日",
+      "magazine-year-of-publication": "雑誌‐発行年",
+      "magazine-title": "雑誌‐タイトル",
+      "magazine-title-kana": "雑誌‐タイトル（カナ）",
+      "magazine-month-number-notation": "雑誌‐月号号数表記",
+      "magazine-subtitle": "雑誌‐サブタイトル",
+      "magazine-publication-type-classification": "雑誌‐刊行形態区分",
+      "publication-type-classification": {
+        "monthly": "月刊誌",
+        "bi-monthly": "隔月刊誌",
+        "quarterly": "季刊誌",
+        "annual": "年刊誌",
+        "weekly": "週刊誌"
+      },
+      "magazine-extra-volume-segmentation": "雑誌‐増刊別冊区分",
+      "extra-volume": {
+        "collection": "増刊",
+        "seperate": "別冊"
+      },
+      "publisher-name": "出版社名",
+      "publisher-name-kana": "出版社名カナ",
+      "summary": "要旨（概要・内容説明）",
+      "table-of-content": "目次",
+      "ndc-code": "NDCコード",
+      "print-version-publication-date": "プリント版出版年月",
+      "posted-page-number-of-illustrations": "挿絵等の掲載ページ番号",
+      "possibility-to-sell-outside-japan": "日本以外での販売可否",
+      "possibility-select-option": {
+        "permitted": "許可（全世界で販売）",
+        "not-permitted": "不可（日本国内のみで販売）"
+      },
+      "sellable-institution": "販売可能機関",
+      "institution": {
+        "all": "すべての機関",
+        "university": "大学",
+        "schools": "学校",
+        "library": "公共図書館",
+        "company": "企業",
+        "hospital": "病院",
+        "goverment": "官公庁"
+      },
+      "voice-reading-permission": "音声読み上げ許諾",
+      "permission": {
+        "permitted": "許可",
+        "not-permitted": "不可"
+      },
+      "full-text-trial-reading-service-permission": "全文試し読みサービス許諾",
+      "link-to-external-site": "外部サイトへのリンク",
+      "reference-book-ISBN": "参照文献書籍ISBN",
+      "agency-management-code": "取次管理コード",
+      "remarks-notes": "備考/メモ",
+      "body-price-1": "「同時アクセス数1」の単品価格（本体価）",
+      "body-price-2": "「同時アクセス数2」の単品価格（本体価）",
+      "body-price-3": "「同時アクセス数3」の単品価格（本体価）",
+      "preliminary": "予備",
+      "distribution-license": "分売許諾",
+      "license": {
+        "permission": "分売許可",
+        "sold_out": "分売不可"
+      },
+      "series-code": "シリーズコード",
+      "series-serial-number": "シリーズ連番",
+      "sale-start-date": "販売開始日",
+      "sale-end-date": "販売終了日（最終販売日）",
+      "download-print-permission": "部分ダウンロード・印刷許諾",
+      "multi-use-sales-license": "マルチユース販売許諾",
+      "format": "フォーマット",
+      "format-option": {
+        "pdf": "PDF",
+        "reflow": "EPUBリフロー",
+        "fixed": "EPUBフィックス（固定レイアウト）"
+      },
+      "cover-image-file-name": "表紙画像ファイル名",
+      "ebook-file-name": "電子書籍ファイル名",
+      "trial-reading-permission": "試し読み許可",
+      "trial-reading-option": {
+        "readable": "試し読み可",
+        "none": "試し読み不可"
+      },
+      "trial-reading-file-availability": "試し読みファイル有無",
+      "file-availability-option": {
+        "trial": "試し読みファイル有",
+        "none": "試し読みファイル無"
+      },
+      "trial-reading-file-name": "試し読みファイル名",
+      "range-of-trial-reading": "試し読みの範囲指定",
+      "pod-sold-separately": "POD併売許可",
+      "pod-permission": {
+        "yes": "POD注文を受け付ける",
+        "no": "POD注文は受け付けない"
+      },
+      "pod-file-name": "PODファイル名",
+      "pod-price": "POD価格（本体価）",
+      "pod-supplier": "POD発注先",
+      "pod-ordering-method": "POD発注方法",
+      "pod-remarks": "POD備考"
+    },
+    "university-co-op": {
+      "book-code": "書籍コード",
+      "jdcn": "JDCN",
+      "bibliographic-work-name": "書誌用作品名",
+      "bibliographic-work-name-kana": "書誌用作品名カナ",
+      "subtitle": "サブタイトル",
+      "subtitle-kana": "サブタイトルカナ",
+      "short-description": "解説・短",
+      "long-description": "解説・長",
+      "table-of-contents": "目次",
+      "keyword": "キーワード",
+      "bibliographic-author-name-1": "書誌用著作者名1",
+      "bibliographic-author-name-kana-1": "書誌用著作者名カナ1",
+      "notation-for-author-site-1": "著作者サイト用表記1",
+      "bibliographic-author-name-2": "書誌用著作者名2",
+      "bibliographic-author-name-kana-2": "書誌用著作者名カナ2",
+      "notation-for-author-site-2": "著作者サイト用表記2",
+      "bibliographic-author-name-3": "書誌用著作者名3",
+      "bibliographic-author-name-kana-3": "書誌用著作者名カナ3",
+      "notation-for-author-site-3": "著作者サイト用表記3",
+      "bibliographic-author-name-4": "書誌用著作者名4",
+      "bibliographic-author-name-kana-4": "書誌用著作者名カナ4",
+      "notation-for-author-site-4": "著作者サイト用表記4",
+      "bibliographic-author-name-5": "書誌用著作者名5",
+      "bibliographic-author-name-kana-5": "書誌用著作者名カナ5",
+      "notation-for-author-site-5": "著作者サイト用表記5",
+      "bibliographic-author-name-6": "書誌用著作者名6",
+      "bibliographic-author-name-kana-6": "書誌用著作者名カナ6",
+      "notation-for-author-site-6": "著作者サイト用表記6",
+      "bibliographic-author-name-7": "書誌用著作者名7",
+      "bibliographic-author-name-kana-7": "書誌用著作者名カナ7",
+      "notation-for-author-site-7": "著作者サイト用表記7",
+      "bibliographic-author-name-8": "書誌用著作者名8",
+      "bibliographic-author-name-kana-8": "書誌用著作者名カナ8",
+      "notation-for-author-site-8": "著作者サイト用表記8",
+      "bibliographic-author-name-9": "書誌用著作者名9",
+      "bibliographic-author-name-kana-9": "書誌用著作者名カナ9",
+      "notation-for-author-site-9": "著作者サイト用表記9",
+      "bibliographic-series-name": "書誌用シリーズ名",
+      "bibliographic-series-name-kana": "書誌用シリーズ名カナ",
+      "product-number-in-series": "シリーズ内商品番号",
+      "bottom-article-number": "底本内商品番号",
+      "short-series-commentary": "シリーズ解説・短",
+      "long-series-commentary": "シリーズ解説・長",
+      "genre-id": "ジャンルID",
+      "suggested-retail-price": "希望小売価格",
+      "sales-start-date": "販売開始日",
+      "sale-end-date": "販売終了日",
+      "search-target-flag": "検索ターゲットフラグ",
+      "material-file-name": "素材ファイル名",
+      "material-file-type": "素材ファイルタイプ",
+      "thumbnail-file-name": "サムネイルファイル名",
+      "sample-file-name": "サンプルファイル名",
+      "table-of-contents-file-name": "目次ファイル名",
+      "bottom-issue-year": "底本発行年",
+      "bottom-date": "底本発行日",
+      "bottom-version": "底本版数",
+      "bottom-printing-number": "底本刷数",
+      "bottom-book-isbn": "底本13ケタISBNコード",
+      "deadline-product-registration-3-month": "閲覧期限商品登録フラグ（３か月）",
+      "deadline-product-selling-3-month": "閲覧期限商品販売価格（３か月）",
+      "deadline-product-registration-6-month": "閲覧期限商品登録フラグ（６か月）",
+      "deadline-product-selling-6-month": "閲覧期限商品販売価格（６か月）",
+      "deadline-product-registration-1-year": "閲覧期限商品登録フラグ（１年）",
+      "deadline-product-selling-1-year": "閲覧期限商品販売価格（１年）",
+      "deadline-product-registration-2-year": "閲覧期限商品登録フラグ（２年）",
+      "deadline-product-selling-2-year": "閲覧期限商品販売価格（２年）",
+      "deadline-product-registration-3-year": "閲覧期限商品登録フラグ（３年）",
+      "deadline-product-selling-3-year": "閲覧期限商品販売価格（３年）",
+      "deadline-product-registration-4-year": "閲覧期限商品登録フラグ（４年）",
+      "deadline-product-selling-4-year": "閲覧期限商品販売価格（４年）",
+      "deadline-product-registration-6-year": "閲覧期限商品登録フラグ（６年）",
+      "deadline-product-selling-6-year": "閲覧期限商品販売価格（６年）",
+      "sample-file-creation-flag": "サンプルファイル 作成フラグ",
+      "sample-file-viewable-range": "サンプルファイル 閲覧可能範囲",
+      "text-copy-restriction-flag": "テキストコピー制限フラグ",
+      "text-copy-limit-amount": "テキストコピー制限量",
+      "binding-direction": "綴じ方向",
+      "table-of-contents-flag": "目次フラグ",
+      "image-quality-flag": "画質フラグ"
+    },
+    "yodobashi": {
+      "id": "ID",
+      "title-of-content": "書名フル",
+      "book-base-isbn": "底本ISBN",
+      "book-base-title": "底本書名フル",
+      "reading-start-date": "読書可能開始日",
+      "suggested-retail-price": "希望小売価格（税抜き）",
+      "content-file-name": "コンテンツファイル名",
+      "cover-image-file-name": "表紙画像ファイル名",
+      "pdf-binding-direction": "PDF綴じ方向",
+      "product-notes": "商品の注意点",
+      "trafficking-side-book-name": "入稿側書籍名",
+      "sale-start-date": "販売開始日",
+      "trial-availability": "お試し可否",
+      "auto-generate-trial-content": "試し読みコンテンツ自動生成",
+      "trial-page-number": "お試しページ数",
+      "trial-page-percentage": "お試しページ割合",
+      "trial-reading-file-name": "試読コンテンツファイル名",
+      "series-full-name": "シリーズ名フル",
+      "volume": "巻次",
+      "abstract": "要旨",
+      "author-name": "著者名",
+      "author-name-kana": "著者名カナ",
+      "author-role": "著者区分",
+      "c-code": "Ｃコード",
+      "adults-flag": "成年向け書籍マーク",
+      "publisher": "出版社",
+      "rolling": "巻次(数値)",
+      "title-for-group": "グルーピング用書名",
+      "version-display": "版表示（改定履歴）",
+      "table-of-contents": "目次",
+      "genre": "ジャンル",
+      "bottom-sheet-sku": "底本SKU",
+      "publication-date": "出版年月日",
+      "sale-end-date": "販売終了日",
+      "readable-end-date": "読書可能終了日",
+      "label": "レーベル",
+      "return-rate-code": "個別ポイント還元率符号 ",
+      "return-rate": "個別ポイント還元率",
+      "price-change-indicator": "価格変更可否区分 ",
+      "xmdf-license-fee": "XMDFライセンス料有無",
+      "drm-license-fee": "DRMライセンス料有無",
+      "ebook-classification": "電子書籍分類",
+      "maker-code": "メーカーコード",
+      "brand-code": "ブランドコード",
+      "cooperate": "基幹連携する",
+      "unsubscribe": "購読停止",
+      "sku": "SKU"
+    }
+  },
+  "reseller-validation": {
+    "pubridge": {
+      "title_kana": {
+        "invalid": "スペースなしのカタカナで入力してください"
+      },
+      "label_kana": {
+        "pattern": "スペース無しのかなで入力してください"
+      },
+      "series_name_kana": {
+        "pattern": "スペース無しのかなで入力してください"
+      },
+      "volume": {
+        "invalid": "タイトル連番は必要です。0は無効です。"
+      },
+      "contents_name_kana": {
+        "pattern": "スペースなしで入力してください"
+      },
+      "author_kana": {
+        "pattern": "スペースなしのカタカナで入力してください"
+      },
+      "magazine-serial-number": {
+        "invalid": "雑誌通し番号は7桁です"
+      },
+      "content-type": {
+        "invalid": "コンテンツタイプは0から2です"
+      },
+      "sample_percentage": {
+        "invalid": "パーセントは0から100です"
+      },
+      "number": {
+        "invalid": "マイナス数字は使用できません"
+      },
+      "release_date": {
+        "invalid": "日付は無効です",
+        "invalid_pattern": "日付形式が無効です（MM/DD/YYYY）"
+      }
+    },
+    "kindle": {
+      "publisher_name": {
+        "invalid": "出版社名は100文字までです"
+      },
+      "publisher_name_kana": {
+        "invalid": "出版社名は100文字までです"
+      },
+      "reference_id": {
+        "invalid": "電子書籍ISBNまたは20桁のコードを入れてください"
+      },
+      "e_isbn": {
+        "invalid": "電子書籍ISBN（10または13桁）を入れてください"
+      },
+      "jdpc_id": {
+        "invalid": "20桁の書籍コードまたは管理コードが必須です"
+      },
+      "print_book_isbn": {
+        "invalid": "紙版ISBN（10または13桁）を入れてください"
+      },
+      "edition": {
+        "invalid": "刷は最大255文字です"
+      },
+      "release_date": {
+        "invalid": "日付はMM/DD/YYYY形式で入れてください"
+      },
+      "language": {
+        "invalid": "言語は最大3文字です"
+      },
+      "digital_list_price": {
+        "invalid": "小数点を含め1-12桁"
+      },
+      "currency": {
+        "invalid": "通貨は最大4文字です"
+      },
+      "publishing_date": {
+        "invalid": "日付形式が無効です（MM/DD/YYYY）"
+      },
+      "site_launch_date": {
+        "invalid": "日付形式が無効です（MM/DD/YYYY）"
+      }
+    },
+    "kinoden": {
+      "print-version-publication-date": {
+        "invalid-pattern": "日付は無効です"
+      },
+      "sale-start-date": {
+        "invalid-pattern": "日付は無効です"
+      },
+      "sale-end-date": {
+        "invalid-pattern": "日付は無効です"
+      },
+      "magazine-num-of-year": {
+        "invalid-pattern": "年は西暦の下2桁です"
+      },
+      "magazine-year-of-publication": {
+        "invalid-pattern": "出版年は西暦です"
+      }
+    }
+  },
+  "reseller_label": {
+    "pubrige": {
+      "operation": {
+        "new": "新規入稿",
+        "re-submit": "再入稿",
+        "other": "その他"
+      },
+      "publishing_status": {
+        "publishing": "入稿中",
+        "pending": "ペンディング",
+        "currently-sold": "発売中",
+        "suspended": "発売停止",
+        "other": "その他"
+      },
+      "pubridgeType": {
+        "comics": "コミック",
+        "books": "書籍",
+        "photo-album": "写真集",
+        "magazine": "雑誌",
+        "sheet-music": "楽譜"
+      },
+      "pubridgeAdultFlag": {
+        "normal": "ノーマル",
+        "soft": "ソフト",
+        "hard": "ハード",
+        "r18": "R-18"
+      },
+      "pubridgeLanguage": {
+        "english": "英語",
+        "japanese": "日本語"
+      },
+      "pubridgeColorFlag": {
+        "monochrome": "モノクロ",
+        "color": "カラー"
+      },
+      "pubridgeBinding": {
+        "right-binding": "右綴じ",
+        "left-binding": "左綴じ"
+      },
+      "pubridgeContentsFormat": {
+        "reflow": "リフロー",
+        "fix": "フィックス"
+      },
+      "pubridgeAllowQuoteToSNS": {
+        "not-allow": "不許可",
+        "allow": "許可"
+      },
+      "pubridgePublishingCycleID": {
+        "weekly": "週刊",
+        "every-2-week": "隔週",
+        "twice-a-month": "月2回",
+        "monthly": "月刊",
+        "every-other-month": "隔月",
+        "quarterly": "季刊",
+        "annual": "年刊",
+        "twice-a-year": "年2回",
+        "extra-edition": "増刊",
+        "separate-volume": "別冊",
+        "irregularly-published": "不定期刊",
+        "other": "その他"
+      },
+      "pubridgeAudioReplayFlag": {
+        "no-audio-playback": "音声再生不可",
+        "audio-playback-possible": "音声再生可能"
+      },
+      "pubridgeContentsType": {
+        "normal": "通常",
+        "light": "ライト",
+        "special": "スペシャル"
+      }
+    },
+    "kindle": {
+      "kindle-ndc": {
+        "manga": "漫画",
+        "novel": "小説",
+        "light_novel": "ライトノベル",
+        "boys_love_novels": "ボーイズラブノベルス",
+        "boys_love_comics": "ボーイズラブコミックス",
+        "talent_photo": "タレント写真集",
+        "children_reading": "児童書（読み物）",
+        "children_nonfiction": "児童書（ノンフィクション・伝記）"
+      },
+      "activate": {
+        "sales": "販売開始",
+        "stop_sales": "販売中止"
+      }
+    },
+    "yodobashi": {
+      "confirmation" : {
+        "yes" : "有",
+        "no" : "無"
+      },
+      "adult_flag": {
+        "none": "なし",
+        "yes": "有",
+        "no" : "無"
+      },
+      "return_rate_code": {
+        "no_individual_code": "個別コードなし",
+        "plus": "プラス",
+        "minus" : "マイナス"
+      },
+      "price_change": {
+        "cannot": "価格は変更できません",
+        "can": "価格を変更しました"
+      },
+      "license_fee": {
+        "no" : "ライセンス料なし",
+        "yes" : "ライセンス料あり"
+      },
+      "ebook_type": {
+        "bibliography": "書誌",
+        "magazine" : "雑誌"
+      },
+      "subscription" : {
+        "no" : "購読中止",
+        "yes" : "購読開始"
+      },
+      "binding_direction" : {
+        "no": "綴じ無し",
+        "right": "右綴じ",
+        "left": "左綴じ"
+      }
+    }
+  }
+}

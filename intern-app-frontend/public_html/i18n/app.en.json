@@ -1,0 +1,1628 @@
+{
+    "app": {
+        "name": "Publisher Box App"
+    },
+    "navi": {
+        "content_folder": "Content Folder",
+        "user": "User",
+        "account": "My Account",
+        "reseller": "Reseller",
+        "project": "Project",
+        "upload": "Upload Database",
+        "import": "Import Project",
+        "report_tracking": "Report Tracking"
+    },
+    "search_bar": {
+        "publish_status": {
+            "published": "Published",
+            "pending": "Pending",
+            "save_temp": "Save Temp"
+        },
+        "create_date": {
+            "from": "From",
+            "to": "To"
+        },
+        "filter": {
+            "operator": "Search For Operator",
+            "reseller": "Search For Reseller"
+        }
+    },
+    "page_title": {
+        "admin_account": "Admin Account",
+        "my_account": "My Account",
+        "content_folder": "Content Folder",
+        "register_content_folder": "Register Content Folder",
+        "reseller": {
+            "list": "Reseller List",
+            "detail": "Reseller Detail",
+            "create": "Create Reseller"
+        },
+        "user_list": "User List",
+        "user_create": "Create User",
+        "user_detail": "User Detail",
+        "project": {
+            "list": "Project List",
+            "detail": "Project Detail",
+            "create": "Create Project",
+            "bibliographic_data": "Bibliographic Data",
+            "edition": "Edition"
+        },
+        "publish": {
+            "create": "Publish A Book",
+            "detail": "Publish Detail"
+        },
+        "upload": {
+            "list": "Upload Database List"
+        },
+        "import": {
+            "list": "Import Project From Box List"
+        },
+        "book": "Book Data",
+        "forgot_pass": "Forgot Password",
+        "edition": {
+            "add": "Add Note File",
+            "create_file_text": "Create Note File",
+          "existed_file":"EXISTED FILES"
+        },
+        "report_tracking": {
+            "show_and_hide": "Show And Hide Columns",
+            "list": "Report Tracking List",
+            "export_report_tracking": "Export Report Tracking"
+        }
+    },
+    "header": {
+        "edition": "CREATE NEW EDITION",
+        "bibliographic_data": "Bibliographic Data",
+        "in_process_file": "In-process File",
+        "public_history": "Publish History",
+        "project_info": "Project Information",
+        "edition_info": "Edition Information",
+        "metadata": "ADD METADATA TO FILE",
+        "publish_info": "PUBLISH INFORMATION",
+        "select_reseller": "SELECT RESELLER",
+        "select_file": "SELECT PUBLISH FILE",
+        "reseller_info": "RESELLER INFORMATION",
+        "select_book": "SELECT BOOK",
+        "ignore_existed_data": "IGNORE EXISTED RECORD",
+        "replace_existed_data": "REPLACE EXISTED DATA",
+        "create_note_file": "CREATE NOTE FILE",
+        "zip_file": "ZIP FILE FOR SAVE TEMP"
+    },
+    "button": {
+        "login": "Login",
+        "logout": "Logout",
+        "grant_access": "GRANT ACCESS TO BOX",
+        "cancel": "CANCEL",
+        "ok": "OK",
+        "back": "BACK",
+        "save": "SAVE",
+        "saving": "SAVING",
+        "add": "ADD",
+        "delete": "DELETE",
+        "export": "EXPORT",
+        "export_all": "EXPORT ALL",
+        "change_password": "CHANGE PASSWORD",
+        "change_email": "CHANGE EMAIL",
+        "add_content_folder": "ADD CONTENT FOLDER",
+        "no": "NO",
+        "yes": "YES",
+        "submit": "SUBMIT",
+        "create": "CREATE",
+        "creating": "CREATING",
+        "edit": "EDIT",
+        "add_edition": "ADD EDITION",
+        "select": "SELECT",
+        "delete_all": "DELETE ALL",
+        "select_incoming_file": "SELECT INCOMING FILE",
+        "select_reseller": "SELECT RESELLER",
+        "select_publish_file": "SELECT PUBLISH FILE",
+        "publish": "PUBLISH",
+        "publishing": "PUBLISHING",
+        "upload": "UPLOAD",
+        "import": "IMPORT",
+        "book_data": "BOOK DATA",
+        "add_note_file": "ADD NOTE FILES",
+        "new": "NEW",
+        "new_file_note": "NEW FILE NOTE",
+        "select_file": "SELECT FILE",
+        "import_project": "IMPORT PROJECT",
+        "ignore_existed_data": "IGNORE EXISTED DATA",
+        "replace_existed_data": "REPLACE EXISTED DATA",
+        "filter": "FILTER",
+        "actions": "ACTIONS",
+        "save_temp": "SAVE TEMP"
+    },
+    "label": {
+        "check_file": "Please select file to publish",
+        "username": "Username",
+        "password": "Password",
+        "remember_me": "Remember me",
+        "forgot_password": "Forgot Password",
+        "register_content_folder": "Register Content Folder",
+        "select_project": "Select Project On Box For Importing",
+        "old_password": "Old Password",
+        "new_password": "New Password",
+        "re_password": "Confirm Password",
+        "email": "Email address",
+        "phone": "Phone number",
+        "name": "Name",
+        "website": "Website",
+        "fax": "Fax",
+        "company_name": "Company Name",
+        "contact_name": "Contact Name",
+        "publisher_name": "Publisher Name",
+        "no_data": "No data",
+        "login": "Login",
+        "existed_file": "File(s) already existed in the system",
+        "user": {
+            "active": "Active",
+            "first_name": "First Name",
+            "last_name": "Last Name",
+            "email": "Email",
+            "phone": "Phone Number",
+            "user_name": "Username",
+            "password": "Password",
+            "confirm_password": "Confirm Password",
+            "company": "Company",
+            "department": "Department"
+        },
+        "project": {
+            "isbn": "ISBN",
+            "book_code": "Book Code",
+            "title": "Book Title",
+            "author": "Author Name",
+            "version": "Version",
+            "edition": "Edition Name",
+            "date_publish": "Date Publish",
+            "price": "Price",
+            "create_date": "Create Date",
+            "modify_date": "Last Modified",
+            "content_folder": "Content Folder"
+        },
+        "edition": {
+            "name": "Edition Name",
+            "price": "Price",
+            "version": "Version #",
+            "date_of_paper_edition": "Date of Paper Edition",
+            "status": "Edition Status",
+            "waiting_for_file": "Waiting For File",
+            "working": "Working",
+            "completed": "Completed",
+            "name_note": "Name Note",
+            "content_note": "Content Note"
+        },
+        "file": {
+            "select_all": "Select All",
+            "name": "File Name",
+            "size": "Size",
+            "pending": "Pending",
+            "in_progress": "In Progress",
+            "complete": "Complete",
+            "error": "Error"
+        },
+        "file_info": {
+            "name": "File Name",
+            "description": "Description",
+            "owner": "Owner",
+            "owner_email": "Owner Email",
+            "size": "Size",
+            "type": "File type",
+            "sha1": "SHA1",
+            "create_date": "Create Date",
+            "last_modified": "Last Modified",
+            "upload_to_box": "Upload to Box",
+            "last_update_in_box": "Last Update in Box",
+            "add_metadata": "Add Metadata",
+            "no_metadata": "No metadata applied. Click Add button to add metadata to this file",
+            "warn_metadata": "Add a custom metadata attribute to this file. Other people will be able to see and search for this attribute on Box",
+            "key": "Key",
+            "value": "Value"
+        },
+        "publish": {
+            "operation": "Operation",
+            "publishing_status": "Publish Status",
+            "operator": "Operator",
+            "date": "Date",
+            "release_date": "Release Date",
+            "hash": "Hash",
+            "production_notes": "Production Notes",
+            "notes": "Notes",
+            "publish_file_type": "Publish File Type"
+        },
+        "book_data": {
+            "record_reference": "Record Reference",
+            "notification_type": "Notification Type",
+            "notification_type_value": {
+                "publication_notify": "Notification confirmed on publication",
+                "advance_notify": "Advance notification (confirmed)",
+                "delete": "Delete"
+            },
+            "available_pc": {
+                "yes": "Yes",
+                "no": "No"
+            },
+            "issue_form": {
+                "book": "Book",
+                "magazine": "Magazine"
+            },
+            "deletion_text": "Deletion Text",
+            "product_identifier": "Product Identifier",
+            "productID_type": "Product ID Type",
+            "id_type_name": "ID Type Name",
+            "id_value": "ID Value",
+            "descriptive_detail": "Descriptive Detail",
+            "product_composition": "Product Composition",
+            "product_composition_value": {
+                "single_product": "Single-item retail product",
+                "multiple_separated_product": "Multiple-item retail product retailed as separate parts",
+                "multiple_product": "Multiple-item retail product"
+            },
+            "product_form": "Product Form",
+            "product_form_value": {
+                "book": "Book",
+                "other_book": "Other book format",
+                "general_merchandise": "General merchandise"
+            },
+            "product_form_detail": "Product Form Detail",
+            "product_form_detail_value": {
+                "a5_tankobon": "A5 Tankobon",
+                "b5_tankobon": "B5 Tankobon",
+                "b6_tankobon": "B6 Tankobon",
+                "a6_bunkon": "A6 Bunko",
+                "b40_dori_shinsho": "B40-dori Shinsho",
+                "46": "46",
+                "46_henkei": "46 Henkei",
+                "a4": "A4",
+                "a4_henkei": "A4-Henkei",
+                "a5_henkei": "A5 Henkei",
+                "b5_henkei_size": "B5 Henkei size",
+                "b6_henkei_size": "B6 Henkei size",
+                "ab_size": "AB size",
+                "b7_size": "B7 size",
+                "kiku_size": "Kiku size",
+                "kiku_henkei_size": "Kiku Henkei size",
+                "jis_b4_size": "JIS B4 size"
+            },
+            "measure": "Measure",
+            "measure_type": "Measure Type",
+            "measure_type_value": {
+                "height": "Height",
+                "width": "Width",
+                "thickness": "Thickness",
+                "unit_weight": "Unit Weight"
+            },
+            "measurement": "Measurement",
+            "measure_unit_code": "Measure Unit Code",
+            "product_part": "Product Part",
+            "product_part_value": {
+                "undefined": "Undefined"
+            },
+            "product_form_description": "Product Form Description",
+            "number_of_items_of_this_form": "Number Of Items Form",
+            "collection": "Collection",
+            "collection_type": "Collection Type",
+            "collection_type_value": {
+                "publisher_collection": "Publisher collection"
+            },
+            "collection_sequence": "Collection Sequence",
+            "collection_sequence_type": "Collection Sequence Type",
+            "collection_sequence_type_value": {
+                "proprietary": "Proprietary",
+                "publication_order": "Publication Order"
+            },
+            "collection_sequence_type_name": "Collection Sequence Type Name",
+            "collection_sequence_number": "Collection Sequence Number",
+            "title_detail": "Title Detail",
+            "title_type": "Title Type",
+            "title_type_value": {
+                "distinctive_title": "Distinctive title"
+            },
+            "title_element": "Title Element",
+            "title_element_level": "Title Element Level",
+            "title_element_level_value": {
+                "product": "Product",
+                "collection_level": "Collection level",
+                "subcollection": "Subcollection"
+            },
+            "part_number": "Part Number",
+            "title_text": "Title Text",
+            "subtitle": "Subtitle",
+            "contributor": "Contributor",
+            "sequence_number": "Sequence Number",
+            "contributor_role": "Contributor Role",
+            "contributor_role_value": {
+                "author": "By author",
+                "screen_by": "Screenplay by",
+                "by_composer": "By composer",
+                "edit_by": "Edited by",
+                "consultant_editor": "Consultant editor",
+                "translated_by": "Translated by",
+                "illustrated_by": "Illustrated by",
+                "original_author": "Original author",
+                "idea_by": "From an idea by",
+                "photographer": "By photographer",
+                "commentaries_by": "Commentaries by",
+                "read_by": "Read by"
+            },
+            "person_name": "Person Name",
+            "person_name_kana": "Person Name Kana",
+            "biographical_note": "Biographical Note",
+            "no_contributor": "No Contributor",
+            "edition_type": "Edition Type",
+            "edition_type_value": {
+                "new_edition": "New Edition"
+            },
+            "edition_statement": "Edition Statement",
+            "language": "Language",
+            "language_role": "Language Role",
+            "language_role_value": {
+                "lang_text": "Language of text"
+            },
+            "language_code": "Language Code",
+            "language_code_value": {
+                "jan": "Japanese",
+                "eng": "English"
+            },
+            "country_code": "Country Code",
+            "extent": "Extent",
+            "extent_type": "Extent Type",
+            "extent_type_value": {
+                "content_page_count": "Content page count"
+            },
+            "extent_value": "Extent Value",
+            "extent_unit": "Extent Unit",
+            "extent_unit_value": {
+                "pages": "Pages"
+            },
+            "subject": "Subject",
+            "main_subject": "Main Subject",
+            "subject_scheme_identifier": "Subject Scheme Identifier",
+            "subject_scheme_identifier_value": {
+                "keywords": "Keywords",
+                "ja_ccode": "Japanese book trade C-Code",
+                "ja_genre_code": "Japanese book trade Genre Code",
+                "nippon_decimal_classify": "Nippon Decimal Classification"
+            },
+            "subject_scheme_version": "Subject Scheme Version",
+            "subject_code": "Subject Code",
+            "subject_heading_text": "Subject Heading Text",
+            "audience": "Audience",
+            "audience_code_type": "Audience Code Type",
+            "audience_code_type_value": {
+                "ja_chidren_audience_code": "Japanese Chidren's audience code",
+                "onix_adult_audience_rating": "ONIX Adult audience rating"
+            },
+            "audience_code_value": "Audience Code Value",
+            "audience_code_value_21": {
+                "02_old": "0-2 years old",
+                "35_old": "3-5 years old",
+                "lower_elementary_school": "Elementary school lower grades",
+                "elementary_school": "Elementary school",
+                "elementary_high_school": "High elementary school grade",
+                "general_elementary_school": "General elementary school",
+                "middle_school": "Middle school or above",
+                "high_school": "High school"
+            },
+            "audience_code_value_22": {
+                "unrated": "Unrated",
+                "any_adult_audience": "Any adult audience",
+                "warning_for_adult": "Content warning【For Adult】",
+                "warning_for_adult_sex": "Content warning (sex)【For Adults (sex)】",
+                "warning_for_adult_violence": "Content warning (violence)【For Adults (violence)】",
+                "warning_for_adult_drug": "Content warning (drug-taking)【For Adults (drugs)】",
+                "warning_for_adult_language": "Content warning (language)【For adults (language)】"
+            },
+            "collateral_detail": "Collateral Detail",
+            "text_content": "Text Content",
+            "text_type": "Text Type",
+            "text_type_value": {
+                "short_description": "Short description",
+                "description": "Description",
+                "jbpa_description": "JBPA description",
+                "table_content": "Table of contents"
+            },
+            "content_audience": "Content Audience",
+            "content_audience_value": {
+                "unrestricted": "Unrestricted",
+                "librarians": "Librarians"
+            },
+            "text": "Text",
+            "supporting_resource": "Supporting Resource",
+            "resource_content_type": "Resource Content Type",
+            "resource_content_type_value": {
+                "front_cove": "Front cove",
+                "product_image": "Product image/artwork"
+            },
+            "resource_content_audience_value": {
+                "restricted": "Restricted"
+            },
+            "resource_mode": "Resource Mode",
+            "resource_mode_value": {
+                "image": "Image"
+            },
+            "resource_version": "Resource Version",
+            "resource_form": "Resource Form",
+            "resource_form_value": {
+                "downloadable_file": "Downloadable file"
+            },
+            "resource_version_feature": "Resource Version Feature",
+            "resource_version_feature_type": "Resource Version Feature Type",
+            "resource_version_feature_type_value": {
+                "file_format": "File format",
+                "file_name": "Filename"
+            },
+            "feature_value": "Feature Value",
+            "resource_link": "Resource Link",
+            "content_detail": "Content Detail",
+            "publish_detail": "Publish Detail",
+            "imprint": "Imprint",
+            "imprint_identifier": "Imprint Identifier",
+            "imprint_id_type": "Imprint ID Type",
+            "imprint_id_type_value": {
+                "japanese_publisher_identifier": "Japanese Publisher identifier",
+                "jp_distribution_identifier": "JP Distribution Identifier"
+            },
+            "imprint_name": "Imprint Name",
+            "publisher": "Publisher",
+            "publisher_role": "Publisher Role",
+            "publisher_role_value": {
+                "publisher": "Publisher"
+            },
+            "publisher_identifier": "Publisher Identifier",
+            "publisher_id_type": "Publisher ID Type",
+            "publisher_name": "Publisher Name",
+            "product_contact": "Product Contact",
+            "product_contact_role": "Product Contact Role",
+            "product_contact_role_value": {
+                "access_request": "Accessibility request contact"
+            },
+            "product_contact_name": "Product Contact Name",
+            "contact_name": "Contact Name",
+            "email_address": "Email Address",
+            "publishing_status": "Publishing Status",
+            "publishing_status_value": {
+                "inactive": "Inactive"
+            },
+            "publishing_date": "Publishing Date",
+            "publishing_date_role": "Publishing Date Role",
+            "publishing_date_role_value": {
+                "forthcoming_date": "Forthcoming reissue date",
+                "publication_date": "Publication date",
+                "embargo_date": "Embargo date",
+                "annoucement_date": "Public announcement date",
+                "first_publication": "Date of first publication",
+                "order_deadline": "Publisher’s reservation order deadline"
+            },
+            "date": "Date",
+            "related_material": "Related Material",
+            "related_product": "Related Product",
+            "product_relation_code": "Product Relation Code",
+            "product_relation_code_value": {
+                "replace": "Replaces"
+            },
+            "product_id_type": "Product ID Type",
+            "product_supply": "Product Supply",
+            "market_publishing_detail": "Market Publishing Detail",
+            "publisher_rep": "Publisher Representative",
+            "agent_role": "Agent Role",
+            "agent_role_value": {
+                "sales_agent": "Sales agent"
+            },
+            "agent_identifier": "Agent Identifier",
+            "agent_id_type": "Agent ID Type",
+            "agent_id_type_value": {
+                "proprietary": "Proprietary"
+            },
+            "agent_name": "Agent Name",
+            "market_publishing_status": "Market Publishing Status",
+            "market_publishing_status_value": {
+                "unspecified": "Unspecified"
+            },
+            "market_publishing_status_notes": "Market Publishing Status Note",
+            "supply_detail": "Supply Detail",
+            "supplier": "Supplier",
+            "supplier_role": "Supplier Role",
+            "supplier_name": "Supplier Name",
+            "returns_conditions": "Returns Conditions",
+            "returns_code_type": "Returns Code Type",
+            "returns_code_type_value": {
+                "onix_condition_code": "ONIX Returns conditions code"
+            },
+            "returns_code": "Returns Code",
+            "returns_code_value": {
+                "sale_or_return": "Sale or return",
+                "firm_sale": "Firm sale",
+                "unspecified": "Unspecified, contact supplier for details"
+            },
+            "product_availability": "Product Availability",
+            "product_availability_value": {
+                "contact_supplier": "Contact supplier"
+            },
+            "price": "Price",
+            "price_type": "Price Type",
+            "price_type_value": {
+                "fixed_retail": "Fixed retail price excluding tax",
+                "rrp_ex_tax": "RRP excluding tax",
+                "spec_fix_retail": "Special sale fixed retail price excluding tax",
+                "spec_rrp_ex": "Special sale RRP excluding"
+            },
+            "price_amount": "Price Amount",
+            "tax": "Tax",
+            "tax_rate_code": "Tax Rate Code",
+            "tax_rate_code_value": {
+                "standard_rate": "Standard rate",
+                "lower_rate": "Lower rate"
+            },
+            "tax_rate_percent": "Tax Rate Percent",
+            "currency_code": "CurrencyCode",
+            "price_date": "Price Date",
+            "price_date_role": "Price Date Role",
+            "price_date_role_value": {
+                "from_date": "From date",
+                "until_date": "Until date"
+            }
+        },
+        "report_tracking": {
+            "check_field": "Check Field"
+        },
+        "notify_setting" : {
+            "file_upload" : "File Upload",
+            "file_delete" : "File Delete",
+            "folder_rename" : "Folder Rename",
+            "folder_delete" : "Folder Delete"
+        }
+    },
+    "validation": {
+        "input_length": {
+          "maxlength": "Max length of this field is __maxlength__ characters",
+          "minlength": "Min length of this field is __minlength__ characters"
+        },
+        "required": "This field is required",
+        "password": {
+            "min_length": "Please input as least 6 characters",
+            "new_pass_required": "Please input new password"
+        },
+        "confirm_password": {
+            "min_length": "Please input as least 6 characters",
+            "repeat": "Confirm password is not matching"
+        },
+        "first_name": {
+            "invalid_pattern": "First name is wrong format"
+        },
+        "last_name": {
+            "invalid_pattern": "Last name is wrong format"
+        },
+        "user_name": {
+            "invalid_pattern": "Username is wrong format"
+        },
+        "email": {
+            "exist": "Email has already exist",
+            "invalid": "Email is invalid",
+            "invalid_pattern": "Email is wrong format"
+        },
+        "phone_number": {
+            "invalid_pattern": "Phone number is wrong format"
+        },
+        "phone": {
+            "invalid_pattern": "Phone number is wrong format"
+        },
+        "fax": {
+            "invalid_pattern": "Fax number is wrong format"
+        },
+        "website": {
+            "invalid_pattern": "Website is wrong format"
+        },
+        "isbn": {
+            "pattern": "Invalid ISBN Pattern with 13 digits or 20 digits"
+        },
+        "re_password": {
+            "not_math": "Does not match with password"
+        },
+        "edition": {
+            "price": {
+                "invalid_pattern": "Price is wrong format",
+                "greater_than_zero": "Price must be greater than zero",
+                "max_length": "Max length is 32 characters",
+                "invalid_number": "Price value from 0 to 1000000000"
+            }
+        },
+        "chars": {
+            "limit_chars": "Max length is 64 characters",
+            "limit_chars_255": "Max length is 255 characters"
+        },
+        "metadata": {
+            "key_required": "Key is required",
+            "value_required": "Value is required"
+        },
+        "publish": {
+            "date": {
+                "invalid": "Invalid date",
+                "pattern": "Invalid date format (MM/dd/yyyy)"
+            }
+        },
+        "book_data": {
+            "product_id_value": {
+                "number_invalid": "Product ID Value must be 20 digits"
+            },
+            "id_value": {
+                "pattern": "ID Value is wrong format (13 letters)",
+                "pattern_4_digits": "ID Value is wrong format (4 digits)",
+                "pattern_7_digits": "ID Value is wrong format (7 digits no hyphen)",
+                "pattern_8_digits": "ID Value is wrong format (8 digits)",
+                "pattern_13_digits": "ID Value is wrong format (13 digits no hyphen)",
+                "pattern_20_digits": "ID Value is wrong format (20 digits)"
+            },
+            "measurement": {
+                "number_invalid": "Measurement is wrong format (integer number)"
+            },
+            "measure_unit_code": {
+                "pattern": "Measure Unit Code is wrong format (2 letters)"
+            },
+            "number_of_items_of_this_form": {
+                "pattern": "Invalid numeric pattern"
+            },
+            "sequence_number": {
+                "pattern": "Invalid numeric pattern"
+            },
+            "person_name_kana": {
+                "pattern": "Person Name Kana is wrong format without space"
+            },
+            "extent_value": {
+                "pattern": "Invalid numeric pattern"
+            },
+            "resource_link": {
+                "pattern": "Resource Link is wrong format (W3C URL Syntax)"
+            },
+            "email_address": {
+                "pattern": "Email Address is wrong format"
+            },
+            "market_publishing_status_notes": {
+                "pattern": "Market Publishing Status Note is wrong format (3 characters)"
+            }
+        },
+        "date": {
+            "wrong_format": "You must input correct date format"
+        }
+    },
+    "message": {
+        "select_reseller": "Please select reseller to publish",
+        "check_again": "Please fill in all fields required for publishing",
+        "register_success": "Register Content folder success",
+        "del_fol": "Delete Folder ",
+        "del_fol_mgs": "Do you want to delete this folder?",
+        "del_success": "Delete folder success",
+        "change_pass_success": "Change password successfully",
+        "grant_success": "Grant to Box success",
+        "there_errors":"There are some errors occur",
+        "update_user": "Saved successfully",
+        "upload_success": "Upload File successfully",
+        "max_upload": "Your uploaded file size must be less than 50 MB",
+        "start_import_success": "Start import Data from file to DB",
+        "update_book_data": "Update Book Data successfully",
+        "update_additional_detail": "Update Additional Detail successfully",
+        "reset_forgot_pass": "Please check reset code your email",
+        "forgot_pass_success": "Update password success",
+        "reseller": {
+            "delete": "Delete Reseller",
+            "delete_single_mgs": "Do you want to delete this Reseller?",
+            "delete_mgs": "Do you want to delete these Reseller(s)?",
+            "delete_success": "Delete Reseller Successfully!",
+            "delete_error": "Delete Reseller Fail!",
+            "create_success": "Create Reseller Successfully!",
+            "create_error": "Create Reseller Fail!",
+            "update_success": "Update Reseller successfully!"
+        },
+        "user": {
+            "delete": "Confirm Delete User(s)",
+            "delete_mgs": "Are you sure to delete user(s) from list?",
+            "delete_success": "Delete user(s) successfully",
+            "delete_error": "Delete user(s) failed",
+            "create_success": "Create user successfully",
+            "update_success": "Update user successfully"
+        },
+        "project": {
+            "create_success": "Create Project successfully",
+            "create_existed_book_success": "Create Project with ISBN already exists successfully",
+            "update_success": "Update Project successfully!",
+            "delete": "Confirm Delete Project(s)",
+            "delete_single_mgs": "Do you want to delete this Project?",
+            "delete_mgs": "Are you sure to delete project(s)?",
+            "delete_success": "Delete project(s) successfully",
+            "delete_error": "Delete project(s) failed",
+            "book_code_and_isbn_empty": "ISBN/Book Code is required"
+        },
+        "edition": {
+            "create_success": "Create new edition successfully",
+            "update_success": "Update edition successfully"
+        },
+        "select-file": {
+            "move_file_success": "Move files to In-process Successfully",
+            "move_file_failed": "Move files to In-process Failed",
+            "add_file_to_inprocess_success": "Add files to In-process Successfully",
+            "add_file_to_inprocess_failed" : "Add files to In-process Failed",
+            "add_file_to_inprocess_duplicate": "The files is duplicated "
+        },
+        "metadata": {
+            "create_success": "Create new metadata successfully",
+            "update_success": "Update metadata successfully",
+            "create_error": "Create metadata failed",
+            "delete_all_success": "Delete All metadata successfully",
+            "delete": "Confirm Delete All Metadata",
+            "delete_mgs": "Are you sure to delete all metadata in this file?"
+        },
+        "publish": {
+            "miss_select_reseller": "Please sellect the Reseller",
+            "miss_select_file": "Please sellect the file for publishing",
+            "save_publish_success": "Publish Information Saved",
+            "update_publish_success": "Publish Information Updated",
+            "create_success": "Publish Book successfully",
+            "save_temp_success": "Save Temp successfully",
+            "update_success": "Update publish detail successfully",
+            "input_date_error": "Input date error"
+        },
+        "file_info": {
+            "delete": "Confirm Delete File(s)",
+            "delete_mgs": "Are you sure to delete file(s) from list?",
+            "delete_success": "Delete file(s) successfully",
+            "delete_error": "Delete file(s) failed",
+            "upload_success": "Upload note file successfully",
+            "upload_error": "Upload note file error",
+            "error_acquisition_date":"Acquisition date invalid "
+        },
+        "import": {
+            "validate_error": "Can not import project wrong ISBN format or JC book code format",
+            "success": "Select folder on Box successfully"
+        },
+        "report_tracking": {
+            "tooltip_setting": "Setting Show And Hide Field List Report Tracking",
+            "tooltip_refresh": "Refresh List Report Tracking",
+            "error_date_from": "The From Date Is Empty",
+            "error_date_to": "The Date To Is Empty",
+            "error_date_to_invalid": "The Date To Invalid",
+            "date_from_invalid": "The From Date Invalid",
+            "date_from_than_date_to": "The date from must be < the date to ",
+            "reseller_filter_empty": "The Reseller filter Is Empty",
+            "operator_filter_empty" : "The Operator Filter Is Empty"
+        }
+    },
+    "table": {
+        "search": "Search",
+        "tracking_search": "Filter by tags and attributes or search by keyword",
+        "header": {
+            "phone": "Phone",
+            "no_data": "No data",
+            "load_more": "Load More",
+            "detail": "Detail",
+            "description": "Description",
+            "created_date": "Created Date",
+            "status": "Status",
+            "setting": "Setting",
+            "first_name": "First Name",
+            "middle_name": "Middle Name",
+            "last_name": "Last Name",
+            "email": "Email",
+            "time_zone": "Time Zone",
+            "size": "Size",
+            "lang": "Language",
+            "account_info": "ACCOUNT INFORMATION",
+            "full_name": "Full Name",
+            "event": "Event",
+            "last_modified": "Last Modified",
+            "members": "No. members",
+            "folder_name": "Folder Name",
+            "box_folder_id": "Box Folder ID",
+            "modified_date": "Modified Date",
+            "active": "Active",
+            "name": "Name",
+            "website": "Website",
+            "user_name": "Username",
+            "isbn": "ISBN",
+            "title": "Title",
+            "author": "Author",
+            "file_name": "File Name",
+            "file_type": "Type",
+            "owner": "Owner",
+            "file_size": "Size",
+            "sha1": "SHA1",
+            "publisher": "Publisher",
+            "printing_number": "Printing Number",
+            "release_date": "Release Date",
+            "base_price": "Base Price",
+            "incoming_list": "INCOMING FILE LIST",
+            "inprogress_list": "IN-PROGRESS FILE LIST",
+            "file_info": "FILE INFORMATION",
+            "file_detail": "FILE DETAIL",
+            "file_custom_metadata": "CUSTOM METADATA",
+            "file_template_metadata": "ADDITIONAL DETAIL",
+            "format": "Format",
+            "hash": "Hash",
+            "source": "Source",
+            "person_in_charge": "Person In Charge",
+            "acquisition_date": "Acquisition Date",
+            "file": "File (link to BOX)",
+            "memo": "Memo",
+            "operation": "Operation",
+            "publish_status": "Publishing Status",
+            "production": "Production Notes",
+            "link_to_box": "Link to BOX file",
+            "notes": "Notes",
+            "action": "Action",
+            "total_records": "Total Records",
+            "select_file": "SELECT FILE",
+            "root_folder_id": "Folder Id",
+            "root_folder_name": "Folder Name",
+            "error_records": "Error",
+            "success_records": "Success",
+            "import_project": "IMPORT PROJECT",
+            "isbn_prefix": "ISBN Prefix",
+            "book_code": "Book Code",
+            "edition": "Edition",
+            "price": "Price",
+            "reseller":"Reseller",
+            "operator": "Operator",
+            "operation_date": "Operation Date",
+            "notify_setting" : "NOTIFICATION SETTINGS",
+            "edition_status": "Edition Status",
+            "publish_status_tracking": "Publish Status"
+        },
+        "empty_table": "No data available in table",
+        "create_new_note_file": "Create new note file"
+    },
+    "api": {
+        "unknown_error": "There is an error occurred",
+        "status": {
+            "200": "Success",
+            "400": "Bad request",
+            "401": "Unauthorized or Access Token is expired",
+            "403": "Forbidden! Access denied",
+            "406": "Bad parameters",
+            "407": "Folder already existed",
+            "500": "Internal Server Error",
+            "501": "Create model error",
+            "600": "Access token not found",
+            "601": "Invalid access token",
+            "602": "Access token is expired",
+            "603": "Invalid session data",
+            "604": "Session not found",
+            "605": "Invalid login account",
+            "606": "Create User Session fail",
+            "607": "Create Admin Session fail",
+            "608": "Box Access token not found",
+            "700": "Incorrect model data",
+            "701": "User not found",
+            "702": "Password doesn't match",
+            "703": "Email already exists",
+            "704": "Create User fail",
+            "705": "Email is invalid",
+            "706": "Param is invalid",
+            "707": "Username already exists",
+            "708": "Update User fail",
+            "709": "Folder not found",
+            "717": "Old password incorrect",
+            "800": "The ISBN already existed",
+            "801": "Project not found",
+            "802": "Book Code already existed",
+            "804": "Book data not found",
+            "805": "Import Project fail because the project existed",
+            "814": "The edition does not exist",
+            "815": "List edition is empty",
+            "816": "Edition name existed on BOX",
+            "817": "Create Edition failed",
+            "820": "The name of Reseller is already exist",
+            "821": "Reseller does not exist",
+            "831": "Error with PUBLISH processor",
+            "840": "File Upload not found",
+            "841": "You should upload the CSV file",
+            "843": "Can not export Report Tracking CSV",
+            "844": "No record for export Report Tracking CSV",
+            "850": "File info not found",
+            "901": "Cannot get box user info.",
+            "902": "Cannot Register Webhooks",
+            "903": "Cannot get authentication model. Some thing wrong with box connection",
+            "905": "Cannot get Folder from Box",
+            "907": "Cannot call API from BOX",
+            "910": "Box Folder is not registered"
+        }
+    },
+    "language": {
+        "english": "English",
+        "japanese": "Japanese"
+    },
+    "tooltip": {
+    },
+    "export": {
+        "label" : {
+            "export_all" : "Export All",
+            "export_from_ui": "Export data from current table",
+            "from_date" : "From",
+            "to_date" : "To"
+        }
+    },
+    "reseller-template": {
+        "pubridge": {
+            "title": "Title",
+            "title_kana": "Title (kana)",
+            "publisher": "Publisher",
+            "label": "Label",
+            "label_kana": "Label (kana)",
+            "label_type": "Label Type",
+            "magazine_name": "Magazine Name",
+            "series_name": "Series Name",
+            "series_name_kana": "Series Name (kana)",
+            "genre": "Genre ID",
+            "sub_genre": "Sub-Genre ID",
+            "type": "Type",
+            "adult_flag": "Adult Flag",
+            "contents_type": "Contents Type",
+            "volume": "Volume",
+            "contents_name": "Contents Name",
+            "contents_name_kana": "Contents Name (kana)",
+            "retail_price": "Retail Price",
+            "long_description": "Long Description",
+            "short_description": "Short Description",
+            "file_name": "Filename",
+            "color_flag": "Color Flag",
+            "jdcn_code": "JDCN Code",
+            "number_of_pages": "Number Of Pages",
+            "original_version_date": "Original Version Date",
+            "original_version_isbn": "Original Version ISBN",
+            "publisher_book_code": "Publisher Book Code",
+            "author": "Author",
+            "author_kana": "Author (kana)",
+            "author_role": "Author Role",
+            "format": "Format",
+            "number_of_replays": "Number of replays",
+            "replay_expiry_date": "Replay Expiry Date",
+            "redownload_time": "Re-download Time",
+            "number_of_redownloadable_devides": "Number Of Re-downloadable Devices",
+            "audio_replay_flag": "Audio Replay Flag",
+            "language": "Language",
+            "metadata": "Metadata",
+            "binding": "Binding",
+            "table_of_contents": "Table Of Contents",
+            "number_of_sample_pages": "Number Of Sample Pages",
+            "copyright": "Copyright",
+            "sample_percentage": "Sample Percentage",
+            "original_version_price": "Original Version Price",
+            "contents_format": "Contents Format",
+            "jpe_code": "JP-e Code",
+            "allow_quote_to_sns": "Allow Quote to SNS?",
+            "jan_code": "JAN Code",
+            "publishing_cycle_id": "Publishing Cycle ID",
+            "magazine_serial_number": "Magazine Serial Number",
+            "release_date": "Release Date",
+            "allow_reservation_date": "Allow Reservation Date",
+            "end_release_date": "End Release Date",
+            "allow_comments": "Allow Comments?",
+            "Remarks": "Remarks",
+            "Imprint": "Imprint",
+            "Imprint_kana": "Imprint Kana",
+            "choose_file_name": "Choose File Name",
+            "notes": "Notes"
+        },
+        "kindle": {
+            "publisher_name": "Publisher Name",
+            "publisher_name_kana": "Publisher Name Kana",
+            "reference_id": "Reference ID",
+            "e_isbn": "E-ISBN",
+            "jdpc_id": "JDPC ID",
+            "print_book_isbn": "Print Book ISBN",
+            "title": "Title",
+            "title_kana": "Title Kana",
+            "series_title": "Series Title",
+            "series_title_kana": "Series Title Kana",
+            "series_number": "Series Number",
+            "publisher_label": "Publisher Label",
+            "publisher_label_pronunciation": "Publisher Label Pronunciation",
+            "edition": "Edition",
+            "volume": "Volume",
+            "description": "Description",
+            "release_date": "Release Date",
+            "adult_flag": "Adult Flag",
+            "bisac": "BISAC",
+            "bic": "BIC",
+            "wgs": "WGS",
+            "ndc": "NDC",
+            "kindle-ndc": {
+                "manga": "Manga",
+                "novel": "Novel",
+                "light_nodel": "Light Novel",
+                "boys_love_novels": "Boys Love Novels",
+                "boys_love_comics": "Boys Love Comics",
+                "talent_photo": "Talent Photo Book",
+                "chidlren_reading": "Children's Books (Reading)",
+                "chidlren_nonfiction": "Children's Books (Nonfiction / Biographies)"
+            },
+            "language": "Language",
+            "digital_list_price": "Digital List Price",
+            "currency": "Currency",
+            "territory": "Territory",
+            "exclude_territory": "Exclude Territory",
+            "authors": "Authors",
+            "authors_kana": "Authors Kana",
+            "editors": "Editors",
+            "editors_kana": "Editors Kana",
+            "illustrators": "Illustrators",
+            "illustrators_kana": "Illustrators Kana",
+            "contributors": "Contributors",
+            "contributors_kana": "Contributors Kana",
+            "translators": "Translators",
+            "translators_kana": "Translators Kana",
+            "photographers": "Photographers",
+            "photographers_kana": "Photographers Kana",
+            "readers": "Readers",
+            "readers_kana": "Readers Kana",
+            "others": "Others",
+            "others_kana": "Others Kana",
+            "publishing_date": "Publishing Date",
+            "site_launch_date": "Site Launch Date",
+            "keywords": "Keywords",
+            "approved_to_convert": "Approved to Convert",
+            "activate": "Activate",
+            "file_format": "File Format",
+			"notes": "Notes",
+			"author_roles": "Author Roles",
+            "remark": "Remark"
+        },
+        "kinoppy": {
+            "book_isbn": "Book ISBN",
+            "ebook_id": "E-Book ID",
+            "internal_code": "Publisher Internal Code",
+            "title": "Title",
+            "title_kana": "Title (kana)",
+            "volume": "Volume/Annual",
+            "secondary_title": "Secondary Title",
+            "secondary_title_kana": "Secondary Title (kana)",
+            "secondary_volume": "Secondary Volume",
+            "series_name": "Series Name",
+            "author": "Author",
+            "author_kana": "Author (kana)",
+            "author_role": "Author Role",
+            "secondary_author": "Secondary Author",
+            "publisher": "Publisher Name",
+            "summary": "Summary（Overview）",
+            "table_of_contents": "Table Of Contents",
+            "c_code": "C-Code",
+            "cover_image_name": "Cover Image Name",
+            "notes": "Notes",
+            "sale_type": "Sales Type",
+            "availability_for_pc": "Availability For PC",
+            "price_without_tax": "Price (Exclude Tax)",
+            "special_price": "Special Price (Exclude Tax)",
+            "iap_special_price_with_tax": "IAP Special Price (Include Tax)",
+            "special_start_date_time": "Special Start Date and Time",
+            "special_end_date_time": "Special End Date and Time",
+            "browsing_file": "Available for Browsing file",
+            "ebook_file_name": "Ebook File Name",
+            "browse_file_name": "Browse File Name",
+            "invoice_code": "Invoice Code",
+            "publisher_accounting_code": "Publishing Accounting Code",
+            "jasrac_code": "JASRAC Application Code",
+            "reservation_start_date_time": "Reservation Start Date and Time",
+            "distribution_start_date": "Distribution Start Date",
+            "final_delivery_date": "Final Delivery Date",
+            "iap_price_with_tax": "IAP Selling Price (Tax Included)",
+            "content_id": "Content ID",
+            "valid_flag": "Valid Flag",
+            "sony_reader_sales": "Sony Reader Sales",
+            "content_id_for_reader": "Content ID For Reader",
+            "reader_file_id": "Reader File ID",
+            "reader_file_id_browse": "Reader File ID (Browse)",
+            "reader_start_delivery_date": "Reader Start Delivery Date",
+            "reader_end_delivery_date": "Reader End Delivery Date",
+            "issue_form": "Issue Form",
+            "genre_id": "Genre ID",
+            "sub_genre_id": "Sub Genre ID",
+            "title_id": "Title ID",
+            "title_serial_number": "Title Serial Number",
+            "label_item": "Label Item",
+            "cloud_sync_enabled": "Cloud Sync Enabled Time",
+            "format_subtype": "Format Subtype",
+            "title_list": "Set Title List",
+            "identification_flag": "Set Identification Flag",
+            "bibliographic_categories": "Bibliographic Categories",
+            "automatic_generation_of_browsing_file": "Automatic Generation of Browsing File",
+            "browse_file_creation_condition": "Browse File Creation Condition"
+        },
+        "kinoden": {
+            "content-id": "Content ID",
+            "book-magazine-classification": "Book/Magazine classification",
+            "classification": {
+                "books": "Books",
+                "magazines": "Magazines"
+            },
+            "e-isbn": "Book - eISBN",
+            "bottom-isbn": "Book - Bottom ISBN",
+            "e-code": "Books - Electronic Publishing Code (E Code)",
+            "book-title": "Book - Title",
+            "title-kana": "Book - Title Kana",
+            "volume-and-annual": "Book - Volume and Annual",
+            "secondary-title": "Book - Secondary title",
+            "secondary-title-kana": "Book - Secondary title kana",
+            "series-name": "Book - Series name",
+            "series-name-kana": "Book - Series name kana",
+            "label-name": "Book - Label name",
+            "label-name-kana": "Book - Label name kana",
+            "author-name": "Book - Author name",
+            "author-name-kana": "Book - Author name kana",
+            "author-role": "Book - Author role",
+            "magazine-issn": "Magazine - ISSN",
+            "magazine-jancode": "Magazine - JAN Code",
+            "magazine-journal-code": "Magazine - Journal Code",
+            "magazine-num-of-year": "Magazine - Number of years",
+            "magazine-num-of-month": "Magazine - Number of months",
+            "magazine-num-of-day": "Magazine - Number of days",
+            "magazine-year-of-publication": "Magazine - Year of publication",
+            "magazine-title": "Magazine - Title",
+            "magazine-title-kana": "Magazine - Title kana",
+            "magazine-month-number-notation": "Magazine - Month Number Notation",
+            "magazine-subtitle": "Magazine - Subtitle",
+            "magazine-publication-type-classification": "Magazine - Publication type classification",
+            "publication-type-classification": {
+                "monthly": "Monthly magazine",
+                "bi-monthly": "Bi-monthly Magazine",
+                "quarterly": "Quarterly Magazine",
+                "annual": "Annual Magazine",
+                "weekly": "Weekly Magazine"
+            },
+            "magazine-extra-volume-segmentation": "Magazine - Extra Volume Segmentation",
+            "extra-volume": {
+                "collection": "Extra Collection",
+                "seperate": "Separate Volume"
+            },
+            "publisher-name": "Publisher name",
+            "publisher-name-kana": "Publisher name Kana",
+            "summary": "Summary (Outline and Description)",
+            "table-of-content": "Table of Contents",
+            "ndc-code": "NDC code",
+            "print-version-publication-date": "Print version publication date",
+            "posted-page-number-of-illustrations": "Posted page number of illustrations",
+            "possibility-to-sell-outside-japan": "Possibility to sell outside Japan",
+            "possibility-select-option": {
+                "permitted": "Permitted (sold worldwide)",
+                "not-permitted": "Not permitted (sold only in Japan)"
+            },
+            "sellable-institution": "Sellable institution",
+            "institution": {
+                "all": "All institutions",
+                "university": "University",
+                "schools": "Schools",
+                "library": "Public library",
+                "company": "Company",
+                "hospital": "Hospital",
+                "goverment": "Government agency"
+            },
+            "voice-reading-permission": "Voice reading permission",
+            "permission": {
+                "permitted": "Permitted",
+                "not-permitted": "Not permitted"
+            },
+            "full-text-trial-reading-service-permission": "Full-text trial reading service permission",
+            "link-to-external-site": "Link to external site",
+            "reference-book-ISBN": "Reference book ISBN",
+            "agency-management-code": "Account administration code",
+            "remarks-notes": "Remarks/Notes",
+            "body-price-1": "Single item price of 'simultaneous access number 1' (body price)",
+            "body-price-2": "Single item price of 'simultaneous access number 2' (body price)",
+            "body-price-3": "Single item price of 'simultaneous access number 3' (body price)",
+            "preliminary": "Preliminary",
+            "distribution-license": "Distribution license",
+            "license": {
+                "permission": "Distribution permission",
+                "sold_out": "Can not be sold out"
+            },
+            "series-code": "Series code",
+            "series-serial-number": "Series serial number",
+            "sale-start-date": "Sale start date",
+            "sale-end-date": "Sale end date",
+            "download-print-permission": "Partial download - Print permission",
+            "multi-use-sales-license": "Multi-use sales license",
+            "format": "Format",
+            "format-option": {
+                "pdf": "PDF",
+                "reflow": "EPUB reflow",
+                "fixed": "EPUB fixed (fixed layout)"
+            },
+            "cover-image-file-name": "Cover image file name",
+            "ebook-file-name": "E-book file name",
+            "trial-reading-permission": "Trial reading permission",
+            "trial-reading-option": {
+                "readable": "Readable trial",
+                "none": "Unreadable trial"
+            },
+            "trial-reading-file-availability": "Trial reading file availability",
+            "file-availability-option": {
+              "trial": "Available reading file trial",
+              "none": "Unavailable reading file trial"
+            },
+            "trial-reading-file-name": "Test reading file name",
+            "range-of-trial-reading": "Specify range of trial reading",
+            "pod-sold-separately": "POD combined sale permission",
+            "pod-permission": {
+              "yes": "Accept POD order",
+              "no": "No accept POD order"
+            },
+            "pod-file-name": "POD file name",
+            "pod-price": "POD price",
+            "pod-supplier": "POD supplier",
+            "pod-ordering-method": "POD ordering method",
+            "pod-remarks": "POD Remarks"
+        },
+        "university-co-op": {
+            "book-code": "Book code",
+            "jdcn": "JDCN",
+            "bibliographic-work-name": "Bibliographic work name",
+            "bibliographic-work-name-kana": "Bibliographic work name Kana",
+            "subtitle": "Subtitle",
+            "subtitle-kana": "Subtitle Kana",
+            "short-description": "Short description",
+            "long-description": "Long description",
+            "table-of-contents": "Table of contents",
+            "keyword": "Keyword",
+            "bibliographic-author-name-1": "Bibliographic Author name 1",
+            "bibliographic-author-name-kana-1": "Bibliographic Author name Kana 1",
+            "notation-for-author-site-1": "Notation for author site 1",
+            "bibliographic-author-name-2": "Bibliographic author name 2",
+            "bibliographic-author-name-kana-2": "Bibliographic author name Kana 2",
+            "notation-for-author-site-2": "Notation for author site 2",
+            "bibliographic-author-name-3": "Bibliographic author name 3",
+            "bibliographic-author-name-kana-3": "Bibliographic author name Kana 3",
+            "notation-for-author-site-3": "Notation for author site 3",
+            "bibliographic-author-name-4": "Bibliographic author name 4",
+            "bibliographic-author-name-kana-4": "Bibliographic author name Kana 4",
+            "notation-for-author-site-4": "Notation for author site 4",
+            "bibliographic-author-name-5": "Bibliographic author name 5",
+            "bibliographic-author-name-kana-5": "Bibliographic author name Kana 5",
+            "notation-for-author-site-5": "Notation for author site 5",
+            "bibliographic-author-name-6": "Bibliographic author name 6",
+            "bibliographic-author-name-kana-6": "Bibliographic author name Kana 6",
+            "notation-for-author-site-6": "Notation for author site 6",
+            "bibliographic-author-name-7": "Bibliographic author name 7",
+            "bibliographic-author-name-kana-7": "Bibliographic author name Kana 7",
+            "notation-for-author-site-7": "Notation for author site 7",
+            "bibliographic-author-name-8": "Bibliographic author name 8",
+            "bibliographic-author-name-kana-8": "Bibliographic author name Kana 8",
+            "notation-for-author-site-8": "Notation for author site 8",
+            "bibliographic-author-name-9": "Bibliographic author name 9",
+            "bibliographic-author-name-kana-9": "Bibliographic author name Kana 9",
+            "notation-for-author-site-9": "Notation for author site 9",
+            "bibliographic-series-name": "Bibliographic series name",
+            "bibliographic-series-name-kana": "Bibliographic series name Kana",
+            "product-number-in-series": "Product number in series",
+            "bottom-article-number": "Bottom article number",
+            "short-series-commentary": "Short Series commentary",
+            "long-series-commentary": "Long Series commentary",
+            "genre-id": "Genre ID",
+            "suggested-retail-price": "Suggested retail price",
+            "sales-start-date": "Sale start date",
+            "sale-end-date": "Sale end date",
+            "search-target-flag": "Search target flag",
+            "material-file-name": "Material file name",
+            "material-file-type": "Material file type",
+            "thumbnail-file-name": "Thumbnail file name",
+            "sample-file-name": "Sample file name",
+            "table-of-contents-file-name": "Table of contents file name",
+            "bottom-issue-year": "Bottom issue year",
+            "bottom-date": "Bottom date",
+            "bottom-version": "Bottom version",
+            "bottom-printing-number": "Bottom printing number",
+            "bottom-book-isbn": "Bottom Book 13 Digit ISBN Code",
+            "deadline-product-registration-3-month": "Viewing deadline product registration flag (3 months)",
+            "deadline-product-selling-3-month": "Viewing deadline Product selling price (3 months)",
+            "deadline-product-registration-6-month": "Viewing deadline product registration flag (6 months)",
+            "deadline-product-selling-6-month": "Viewing deadline Product selling price (6 months)",
+            "deadline-product-registration-1-year": "Viewing deadline product registration flag (1 year)",
+            "deadline-product-selling-1-year": "Viewing deadline Product selling price (1 year)",
+            "deadline-product-registration-2-year": "Viewing deadline product registration flag (2 years)",
+            "deadline-product-selling-2-year": "Viewing deadline Product selling price (2 years)",
+            "deadline-product-registration-3-year": "Viewing deadline product registration flag (3 years)",
+            "deadline-product-selling-3-year": "Viewing deadline Product selling price (3 years)",
+            "deadline-product-registration-4-year": "Viewing deadline product registration flag (4 years)",
+            "deadline-product-selling-4-year": "Viewing deadline Product selling price (4 years)",
+            "deadline-product-registration-6-year": "Viewing deadline product registration flag (6 years)",
+            "deadline-product-selling-6-year": "Viewing deadline Product selling price (6 years)",
+            "sample-file-creation-flag": "Sample file creation flag",
+            "sample-file-viewable-range": "Sample file viewable range",
+            "text-copy-restriction-flag": "Text copy restriction flag",
+            "text-copy-limit-amount": "Text copy limit amount",
+            "binding-direction": "Binding direction",
+            "table-of-contents-flag": "Table of Contents Flag",
+            "image-quality-flag": "Image quality flag"
+        },
+        "yodobashi": {
+            "id": "ID",
+            "title-of-content": "Title of content",
+            "book-base-isbn": "Book base ISBN",
+            "book-base-title": "Book base title",
+            "reading-start-date": "Reading start date",
+            "suggested-retail-price": "Suggested retail price (without tax)",
+            "content-file-name": "Content file name",
+            "cover-image-file-name": "Cover image file name",
+            "pdf-binding-direction": "PDF binding direction",
+            "product-notes": "Product notes",
+            "trafficking-side-book-name": "Trafficking-side book name",
+            "sale-start-date": "Sale start date",
+            "trial-availability": "Trial availability",
+            "auto-generate-trial-content": "Automatic generation of trial reading content",
+            "trial-page-number": "Trial page number",
+            "trial-page-percentage": "Trial page percentage",
+            "trial-reading-file-name": "Trial reading content file name",
+            "series-full-name": "Series full name",
+            "volume": "Volume",
+            "abstract": "Abstract",
+            "author-name": "Author name",
+            "author-name-kana": "Author name kana",
+            "author-role": "Author role",
+            "c-code": "C code",
+            "adults-flag": "Adults flag",
+            "publisher": "Publisher",
+            "rolling": "Rolling (Numerical)",
+            "title-for-group": "Title for group",
+            "version-display": "Version display (revision history)",
+            "table-of-contents": "Table of contents",
+            "genre": "Genre",
+            "bottom-sheet-sku": "Bottom sheet SKU",
+            "publication-date": "Publication date",
+            "sale-end-date": "Sale end date",
+            "readable-end-date": "Readable end date",
+            "label": "Label",
+            "return-rate-code": "Individual point return rate code",
+            "return-rate": "Individual point return rate",
+            "price-change-indicator": "Price change enable / disable indicator",
+            "xmdf-license-fee": "Presence or absence of XMDF license fee",
+            "drm-license-fee": "Presence/absence of DRM license fee",
+            "ebook-classification": "E-book classification",
+            "maker-code": "Maker code",
+            "brand-code": "Brand code",
+            "cooperate": "Cooperate",
+            "unsubscribe": "Unsubscribe",
+            "sku": "SKU"
+        }
+    },
+    "reseller-validation": {
+        "pubridge": {
+            "title_kana": {
+                "invalid": "Title is required with Kana format no space"
+            },
+            "label_kana": {
+                "pattern": "Label Kana has format without space"
+            },
+            "series_name_kana": {
+                "pattern": "Series Name Kana has format without space"
+            },
+            "volume": {
+                "invalid": "Volume is required, value 0 is invalid"
+            },
+            "contents_name_kana": {
+                "pattern": "Contents Name Kana has format without space"
+            },
+            "author_kana": {
+                "pattern": "Author Kana has format without space"
+            },
+            "magazine-serial-number": {
+                "invalid": "Magazine Serial Number must be 7 digits"
+            },
+            "content-type": {
+                "invalid": "Content type must be from 0 - 2"
+            },
+            "sample_percentage": {
+                "invalid": "Percentage must from 0 - 100"
+            },
+            "number": {
+                "invalid": "Number cannot be negative"
+            },
+            "release_date" : {
+                "invalid": "Invalid date",
+                "invalid_pattern": "Invalid date format (mm/dd/yyyy)"
+            }
+        },
+        "kindle": {
+            "publisher_name" : {
+                "invalid": "The maximum length of publisher name is 100"
+            },
+            "publisher_name_kana" : {
+                "invalid": "The maximum length of publisher name kana is 100"
+            },
+            "reference_id": {
+                "invalid": "Reference ID is required, enter E-book ISBN or 20 digit code input"
+            },
+            "e_isbn": {
+                "invalid": "E-ISBN is required, e-book unique ISBN (10 digits or 13 digits)"
+            },
+            "jdpc_id": {
+                "invalid": "JDPC ID is required, 20 digits publication code or proprietary management code"
+            },
+            "print_book_isbn": {
+                "invalid": "Print Book ISBN is required, unique print book ISBN (10 digits or 13 digits)"
+            },
+            "edition": {
+                "invalid": "Edition max length is 255"
+            },
+            "release_date": {
+                "invalid": "Release Date format is MM/DD/YYYY"
+            },
+            "language": {
+                "invalid": "Language max length is 3"
+            },
+            "digital_list_price": {
+                "invalid": "1-12 digits including decimal point"
+            },
+            "currency": {
+                "invalid": "Currency max length is 4"
+            },
+            "publishing_date": {
+                "invalid": "The publishing date format is MM/DD/YYYY"
+            },
+            "site_launch_date": {
+                "invalid": "Site launch date format is MM/DD/YYYY"
+            }
+        },
+        "kinoppy": {
+            "title_kana": {
+                "invalid": "Title is required with Kana format no space"
+            }
+        },
+        "kinoden": {
+            "print-version-publication-date": {
+                "invalid-pattern": "Publication data is wrong format"
+            },
+            "sale-start-date": {
+                "invalid-pattern": "Sale start date is wrong format"
+            },
+            "sale-end-date": {
+                "invalid-pattern": "Sale end date is wrong format"
+            },
+            "isbn": {
+                "invalid-pattern": "ISBN is wrong format"
+            },
+            "magazine-num-of-year": {
+                "invalid-pattern": "Number of year must be last 2 digits of the Western calendar year"
+            },
+            "magazine-year-of-publication": {
+                "invalid-pattern": "Year of publication must be 4 digits of the Christian era"
+            }
+        },
+        "university-co-op": {
+            "book-code": {
+                "invalid-pattern": "Book code is wrong format"
+            },
+            "genre-id": {
+                "invalid-pattern": "Genre ID is wrong format"
+            },
+            "bottom-book-isbn": {
+                "invalid-pattern": "Bottom Book ISBN is wrong format"
+            }
+        },
+        "yodobashi": {
+            "book-base-isbn": {
+                "invalid-pattern": "Book base ISBN is wrong format"
+            }
+        }
+    },
+    "reseller_label": {
+        "pubrige": {
+            "operation": {
+                "new": "New",
+                "re-submit": "Re-submit",
+                "other": "Other"
+            },
+            "publishing_status": {
+                "publishing": "Publishing",
+                "pending": "Pending",
+                "currently-sold": "Currently Sold",
+                "suspended": "Suspended",
+                "other": "Other"
+            },
+            "pubridgeType": {
+                "comics": "Comics",
+                "books": "Books",
+                "photo-album": "Photo Album",
+                "magazine": "Magazine",
+                "sheet-music": "Sheet Music"
+            },
+            "pubridgeAdultFlag": {
+                "normal": "Normal",
+                "soft": "Soft",
+                "hard": "Hard",
+                "r18": "R-18"
+            },
+            "pubridgeLanguage": {
+                "english": "English",
+                "japanese": "Japanese"
+            },
+            "pubridgeColorFlag": {
+                "monochrome": "Monochrome",
+                "color": "Color"
+            },
+            "pubridgeBinding": {
+                "right-binding": "Right Binding",
+                "left-binding": "Left Binding"
+            },
+            "pubridgeContentsFormat": {
+                "reflow": "Reflow",
+                "fix": "Fix"
+            },
+            "pubridgeAllowQuoteToSNS": {
+                "not-allow": "Not Allow",
+                "allow": "Allow"
+            },
+            "pubridgePublishingCycleID": {
+                "weekly": "Weekly",
+                "every-2-week": "Every 2 week",
+                "twice-a-month": "Twice a month",
+                "monthly": "Monthly",
+                "every-other-month": "Every other month",
+                "quarterly": "Quarterly",
+                "annual": "Annual",
+                "twice-a-year": "Twice a year",
+                "extra-edition": "Extra Edition",
+                "separate-volume": "Separate volume",
+                "irregularly-published": "Irregularly Published",
+                "other": "Other"
+            },
+            "pubridgeAudioReplayFlag": {
+                "no-audio-playback": "No audio playback",
+                "audio-playback-possible": "Audio playback possible"
+            },
+            "pubridgeContentsType": {
+                "normal": "Normal",
+                "light": "Light",
+                "special": "Special"
+            }
+        },
+        "kindle": {
+            "kindle-ndc": {
+                "manga": "Mangas",
+                "novel": "Novels",
+                "light_novel": "Light Novels",
+                "boys_love_novels": "Boy Love Novels",
+                "boys_love_comics": "Boy Love Comics",
+                "talent_photo": "Talent Photo Books",
+                "children_reading": "Children's Books (Reading)",
+                "children_nonfiction": "Children's Books (Nonfiction / Biographies)"
+            },
+            "activate": {
+                "sales": "Sales",
+                "stop_sales": "Stop Sales"
+            }
+        },
+        "yodobashi": {
+            "confirmation" : {
+                "yes" : "Yes",
+                "no" : "No"
+            },
+            "adult_flag": {
+                "none": "None",
+                "yes": "Yes",
+                "no" : "No"
+            },
+            "return_rate_code": {
+                "no_individual_code": "No Individual Code",
+                "plus": "Plus",
+                "minus" : "Minus"
+            },
+            "price_change": {
+                "cannot": "Price can not be changed",
+                "can": "Price change accepted"
+            },
+            "license_fee": {
+                "no" : "No license fee",
+                "yes" : "There is a license fee"
+            },
+            "ebook_type": {
+                "bibliography": "Bibliography",
+                "magazine" : "Magazine"
+            },
+            "subscription" : {
+                "no" : "Unsubscribe",
+                "yes" : "Subscribe"
+            },
+            "binding_direction" : {
+                "no": "No binding",
+                "right": "Right binding",
+                "left": "Left Binding"
+            }
+        }
+    }
+}
+
